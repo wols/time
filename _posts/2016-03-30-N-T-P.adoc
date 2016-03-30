@@ -5,6 +5,8 @@
 :toc: macro
 :toc-title: Inhalt
 
+toc::[]
+
 == Network Time Protocol
 
 Kommt bald...
