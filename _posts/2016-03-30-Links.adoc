@@ -2,5 +2,5 @@
 
 == UTC
 
-* BIPM
-* PTB
+* http://www.bipm.org/en/bipm-services/timescales/[BIPM :: International reference time scales]
+* http://www.ptb.de/cms/ptb/fachabteilungen/abt4/fb-44/ag-441/darstellung-der-gesetzlichen-zeit/koordinierte-weltzeitskala-utc.html[PTB :: Koordinierte Weltzeitskala UTC ]
