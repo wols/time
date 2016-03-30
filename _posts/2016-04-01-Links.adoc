@@ -1,9 +1,7 @@
 = Links
 
-:published_at: 2016-04-01
-:linkattrs:
 :toc: macro
-:toclevels: 3
+:toclevels: 5
 :setanchors:
 
 toc::[]
