@@ -1,8 +1,10 @@
-= Seite 1
+= Inhalt
+:published_at: 2017-01-01
+:hp-tags:
+:linkattrs:
+:toc: macro
+:toc-title: Inhalt
 
-Erster Satz 13:08 CEST.
-Zweiter Satz 14:05 CEST.
-Jeder Satz in einer eigenen Zeile.
-
-Das wird ein Absatz.
-Der zweite Satz des Absatzes.
+* UTC
+* NTP
+* https://wols.github.io/time/2016/04/01/Links.html[Links]
