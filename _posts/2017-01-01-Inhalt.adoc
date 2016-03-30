@@ -5,5 +5,5 @@
 :toc: macro
 :toc-title: Inhalt
 
-* https://wols.github.io/time/2016/03/30/NTP.html[NTP]
+* https://wols.github.io/time/2016/03/30/N-T-P.html[NTP]
 * https://wols.github.io/time/2016/04/01/Links.html[Links]
