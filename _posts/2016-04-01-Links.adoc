@@ -1,5 +1,6 @@
 = Links
 :published_at: 2016-04-01
+:hp-tags:
 :linkattrs:
 :toc: macro
 :toc-title: Inhalt
