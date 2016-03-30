@@ -1,5 +1,5 @@
-= wols.github.io/time
+= time
 
-Erste Tests...
+== Erste Tests
 
-Inhalt folgt ;-)
+Inhalt folgt bald ;-)
