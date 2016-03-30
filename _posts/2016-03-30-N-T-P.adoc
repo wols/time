@@ -1,3 +1,10 @@
-= Seite 2
+= NTP
 
-Erster Satz 13:09 CEST.
+:published_at: 2016-03-30
+:linkattrs:
+
+:hp-tags: ntp, networktime, utc
+
+== Network Time Protocol
+
+Kommt bald...
