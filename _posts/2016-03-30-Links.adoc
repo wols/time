@@ -2,6 +2,8 @@
 
 :linkattrs:
 
+https://wols.github.io/time/[< HOME]
+
 == UTC
 
 * http://www.bipm.org/en/bipm-services/timescales/[BIPM :: International reference time scales, window="_blank"]
