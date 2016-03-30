@@ -16,6 +16,7 @@ toc::[]
 == NTP
 
 * https://de.wikipedia.org/wiki/Network_Time_Protocol[Wikipedia: Network Time Protocol, window="_blank"]
+* https://nwtime.org/[Network Time Foundation, window="_blank"]
 * ...
 
 == Uhren
