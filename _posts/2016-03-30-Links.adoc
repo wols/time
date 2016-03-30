@@ -7,3 +7,11 @@
 * http://www.bipm.org/en/bipm-services/timescales/[BIPM :: International reference time scales, window="_blank"]
 * http://www.ptb.de/cms/ptb/fachabteilungen/abt4/fb-44/ag-441/darstellung-der-gesetzlichen-zeit/koordinierte-weltzeitskala-utc.html[PTB :: Koordinierte Weltzeitskala UTC, window="_blank"]
 * ...
+
+== NTP
+
+* ...
+
+== Uhren
+
+* http://www.uhrenhanse.de/sammlerecke/wissenswertes/hoffmann.htm[Ist es IIII Uhr oder IV Uhr?, window="_blank"]
