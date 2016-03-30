@@ -1,5 +1,5 @@
-= ntp
-:hp-alt-title: NTP
+= NTP
+:hp-alt-title: ntp
 :published_at: 2016-03-30
 :hp-tags: ntp, networktime, utc
 :linkattrs:
