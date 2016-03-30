@@ -11,8 +11,10 @@
 
 == NTP
 
+* https://de.wikipedia.org/wiki/Network_Time_Protocol[Wikipedia: Network Time Protocol, window="_blank"]
 * ...
 
 == Uhren
 
 * http://www.uhrenhanse.de/sammlerecke/wissenswertes/hoffmann.htm[Ist es IIII Uhr oder IV Uhr?, window="_blank"]
+* ...
