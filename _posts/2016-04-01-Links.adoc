@@ -14,10 +14,10 @@ toc::[]
 * Labore
 ** Deutschland
 *** PTB
-*** ?
+*** http://www.bkg.bund.de/nn_178112/Wettzell/DE/Verzeichnisbaum/LokaleMesssysteme/ZeitundFrequenz/ZeitundFrequenz__node.html__nnn=true[IFAG, window="_blank"]
 *** DLR
 *** DTAG
-* http://www.stjarnhimlen.se/comp/time.html
+* http://www.stjarnhimlen.se/comp/time.html[Zeitskalen, window="_blank"]
 * ...
 
 == NTP
