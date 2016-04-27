@@ -11,6 +11,13 @@ toc::[]
 
 * http://www.bipm.org/en/bipm-services/timescales/[BIPM :: International reference time scales, window="_blank"]
 * http://www.ptb.de/cms/ptb/fachabteilungen/abt4/fb-44/ag-441/darstellung-der-gesetzlichen-zeit/koordinierte-weltzeitskala-utc.html[PTB :: Koordinierte Weltzeitskala UTC, window="_blank"]
+* Labore
+** Deutschland
+*** PTB
+*** ?
+*** DLR
+*** DTAG
+* http://www.stjarnhimlen.se/comp/time.html
 * ...
 
 == NTP
