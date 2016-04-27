@@ -10,10 +10,9 @@ toc::[]
 == UTC
 
 * http://www.bipm.org/en/bipm-services/timescales/[BIPM :: International reference time scales, window="_blank"]
-* http://www.ptb.de/cms/ptb/fachabteilungen/abt4/fb-44/ag-441/darstellung-der-gesetzlichen-zeit/koordinierte-weltzeitskala-utc.html[PTB :: Koordinierte Weltzeitskala UTC, window="_blank"]
 * UTC Zeitlabore
 ** Deutschland
-*** PTB
+*** http://www.ptb.de/cms/ptb/fachabteilungen/abt4/fb-44/ag-441/darstellung-der-gesetzlichen-zeit/koordinierte-weltzeitskala-utc.html[PTB, window="_blank"]
 *** http://www.bkg.bund.de/nn_178112/Wettzell/DE/Verzeichnisbaum/LokaleMesssysteme/ZeitundFrequenz/ZeitundFrequenz__node.html[IFAG, window="_blank"]
 *** DLR
 *** DTAG
