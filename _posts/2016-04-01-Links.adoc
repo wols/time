@@ -17,7 +17,7 @@ toc::[]
 *** http://www.bkg.bund.de/nn_178112/Wettzell/DE/Verzeichnisbaum/LokaleMesssysteme/ZeitundFrequenz/ZeitundFrequenz__node.html[IFAG, window="_blank"]
 *** DLR
 *** DTAG
-* http://www.stjarnhimlen.se/comp/time.html[Zeitskalen, window="_blank"]
+* http://www.stjarnhimlen.se/comp/time.html[Time scales by Paul Schlyter, Stockholm, Sweden, window="_blank"]
 * ...
 
 == NTP
