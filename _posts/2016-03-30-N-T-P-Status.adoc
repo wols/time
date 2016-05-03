@@ -1,8 +1,39 @@
-= Next post 1
+= NTP - Status
 :published_at: 2016-03-30
-:hp-tags:
+:hp-tags: ntp, ntp-debug, networktime
 :linkattrs:
 :toc: macro
 :toc-title: Inhalt
 
+== Schöne NTP Status-Abfragen
 
+=== Server Peers and Variables
+
+----
+watch -n 15 'date -u --iso-8601=ns ; echo ; ntpq -np ; echo ; ntpq -c rv'
+----
+
+...erzeugt alle 15 Sekunden...
+
+----
+Every 15,0s: date -u --iso-8601=ns ; echo ; ntpq -np ; echo ; ntpq -c rv     Tue May  3 15:22:32 2016
+
+2016-05-03T15:22:32,254079303+0000
+
+     remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*192.168.9.21    .PPSd.           1 u   61   64    7    0.787   -0.021   0.260
+o127.127.22.0    .PPSd.           0 l   15   16  377    0.000    1.010   1.005
+ 192.168.9.29    .PPSd.           1 u   62  128    3    0.628   -0.015   0.099
+
+associd=0 status=0115 leap_none, sync_pps, 1 event, clock_sync,
+version="ntpd 4.2.8p6@1.3265-o Thu Mar 31 07:33:51 UTC 2016 (1)",
+processor="i586", system="Linux/3.7.10-gentoo-net4801", leap=00,
+stratum=1, precision=-17, rootdelay=0.000, rootdisp=1.992, refid=PPSd,
+reftime=dad340b9.1a088f5b  Tue, May  3 2016 15:22:33.101,
+clock=dad340b9.3aa8c9df  Tue, May  3 2016 15:22:33.229, peer=39933, tc=4,
+mintc=3, offset=0.910105, frequency=11.371, sys_jitter=0.839618,
+clk_jitter=0.332, clk_wander=0.113
+----
+
+Das zugehörige NTP-Szenario erläutere ich in Kürze...
