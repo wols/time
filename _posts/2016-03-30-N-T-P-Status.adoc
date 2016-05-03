@@ -5,6 +5,8 @@
 :toc: macro
 :toc-title: Inhalt
 
+toc::[]
+
 == Schöne NTP Status-Abfragen
 
 === Server Peers and Variables
