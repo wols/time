@@ -77,17 +77,17 @@
     <meta property="og:site_name" content="time@wols.org" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="NTP - Status" />
-    <meta property="og:description" content="Inhalt Schöne NTP Status-Abfragen Server Peers and Variables Schöne NTP Status-Abfragen Server Peers and Variables watch -n 15 &#x27;date -u --iso-8601=ns ; echo ; ntpq -np ; echo ; ntpq -c rv&#x27; &amp;#8230;&amp;#8203;erzeugt alle 15 Sekunden&amp;#8230;&amp;#8203; Every 15,0s:..." />
+    <meta property="og:description" content="Inhalt Schöne NTP Status-Abfragen Server Infos Server Peers and Variables Schöne NTP Status-Abfragen Server Infos date -u --iso-8601=s ; echo ; ntpq -c version ; echo ; ntpq -np ; echo ; ntpq -c as ; echo ; ntpq -c cv ; echo ; ntpq -c kern ; echo ; ntpq..." />
     <meta property="og:url" content="https://wols.github.io/time/2016/03/30/N-T-P-Status.html" />
     <meta property="article:published_time" content="2016-03-29T22:00:00.000Z" />
-    <meta property="article:modified_time" content="2016-05-03T15:34:22.753Z" />
+    <meta property="article:modified_time" content="2016-05-03T15:41:25.940Z" />
     <meta property="article:tag" content="ntp" />
     <meta property="article:tag" content="ntp-debug" />
     <meta property="article:tag" content="networktime" />
     
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="NTP - Status" />
-    <meta name="twitter:description" content="Inhalt Schöne NTP Status-Abfragen Server Peers and Variables Schöne NTP Status-Abfragen Server Peers and Variables watch -n 15 &#x27;date -u --iso-8601=ns ; echo ; ntpq -np ; echo ; ntpq -c rv&#x27; &amp;#8230;&amp;#8203;erzeugt alle 15 Sekunden&amp;#8230;&amp;#8203; Every 15,0s:..." />
+    <meta name="twitter:description" content="Inhalt Schöne NTP Status-Abfragen Server Infos Server Peers and Variables Schöne NTP Status-Abfragen Server Infos date -u --iso-8601=s ; echo ; ntpq -c version ; echo ; ntpq -np ; echo ; ntpq -c as ; echo ; ntpq -c cv ; echo ; ntpq -c kern ; echo ; ntpq..." />
     <meta name="twitter:url" content="https://wols.github.io/time/2016/03/30/N-T-P-Status.html" />
     
     <script type="application/ld+json">
@@ -105,9 +105,9 @@
     "headline": "NTP - Status",
     "url": "https://wols.github.io/time/2016/03/30/N-T-P-Status.html",
     "datePublished": "2016-03-29T22:00:00.000Z",
-    "dateModified": "2016-05-03T15:34:22.753Z",
+    "dateModified": "2016-05-03T15:41:25.940Z",
     "keywords": "ntp,  ntp-debug,  networktime",
-    "description": "Inhalt Schöne NTP Status-Abfragen Server Peers and Variables Schöne NTP Status-Abfragen Server Peers and Variables watch -n 15 &#x27;date -u --iso-8601=ns ; echo ; ntpq -np ; echo ; ntpq -c rv&#x27; &amp;#8230;&amp;#8203;erzeugt alle 15 Sekunden&amp;#8230;&amp;#8203; Every 15,0s:..."
+    "description": "Inhalt Schöne NTP Status-Abfragen Server Infos Server Peers and Variables Schöne NTP Status-Abfragen Server Infos date -u --iso-8601=s ; echo ; ntpq -c version ; echo ; ntpq -np ; echo ; ntpq -c as ; echo ; ntpq -c cv ; echo ; ntpq -c kern ; echo ; ntpq..."
 }
     </script>
 
@@ -211,6 +211,7 @@
 <ul class="sectlevel1">
 <li><a href="#_sch_ne_ntp_status_abfragen">Schöne NTP Status-Abfragen</a>
 <ul class="sectlevel2">
+<li><a href="#_server_infos">Server Infos</a></li>
 <li><a href="#_server_peers_and_variables">Server Peers and Variables</a></li>
 </ul>
 </li>
@@ -221,6 +222,68 @@
 <div class="sect1">
 <h2 id="_sch_ne_ntp_status_abfragen">Schöne NTP Status-Abfragen</h2>
 <div class="sectionbody">
+<div class="sect2">
+<h3 id="_server_infos">Server Infos</h3>
+<div class="listingblock">
+<div class="content">
+<pre>date -u --iso-8601=s ; echo ; ntpq -c version ; echo ; ntpq -np ; echo ; ntpq -c as ; echo ; ntpq -c cv ; echo ; ntpq -c kern ; echo ; ntpq -c rv</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>&#8230;&#8203;liefert&#8230;&#8203;</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>2016-05-03T15:39:03+0000
+
+ntpq 4.2.8p6@1.3265-o Thu Mar 31 07:34:00 UTC 2016 (1)
+
+     remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*192.168.9.21    .PPSd.           1 u    -   64  377    0.873   -0.107   0.405
+o127.127.22.0    .PPSd.           0 l   14   16  377    0.000   -0.149   0.398
+ 192.168.9.29    .PPSd.           1 u  129  128  377    0.739   -0.001   0.085
+
+
+ind assid status  conf reach auth condition  last_event cnt
+===========================================================
+  1 39932  963a   yes   yes  none  sys.peer    sys_peer  3
+  2 39933  973a   yes   yes  none  pps.peer    sys_peer  3
+  3 39934  9024   yes   yes  none    reject   reachable  2
+
+associd=0 status=0000 no events, clk_unspec,
+device="PPS Clock Discipline", timecode=, poll=74, noreply=0,
+badformat=0, baddata=0, stratum=16, refid=80.80.83.100, flags=0
+
+associd=0 status=0115 leap_none, sync_pps, 1 event, clock_sync,
+pll offset:            -0.117973
+pll frequency:         10.8603
+maximum error:         0.0085
+estimated error:       0.00038
+kernel status:         pll nano
+pll time constant:     4
+precision:             1e-06
+frequency tolerance:   500
+pps frequency:         0
+pps stability:         0
+pps jitter:            0
+calibration interval   0
+calibration cycles:    0
+jitter exceeded:       0
+stability exceeded:    0
+calibration errors:    0
+
+associd=0 status=0115 leap_none, sync_pps, 1 event, clock_sync,
+version="ntpd 4.2.8p6@1.3265-o Thu Mar 31 07:33:51 UTC 2016 (1)",
+processor="i586", system="Linux/3.7.10-gentoo-net4801", leap=00,
+stratum=1, precision=-17, rootdelay=0.000, rootdisp=1.225, refid=PPSd,
+reftime=dad34489.1a062918  Tue, May  3 2016 15:38:49.101,
+clock=dad34498.e0b1d77d  Tue, May  3 2016 15:39:04.877, peer=39933, tc=4,
+mintc=3, offset=-0.149409, frequency=10.860, sys_jitter=0.398167,
+clk_jitter=0.380, clk_wander=0.115</pre>
+</div>
+</div>
+</div>
 <div class="sect2">
 <h3 id="_server_peers_and_variables">Server Peers and Variables</h3>
 <div class="listingblock">
