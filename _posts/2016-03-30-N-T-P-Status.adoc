@@ -9,6 +9,64 @@ toc::[]
 
 == Schöne NTP Status-Abfragen
 
+=== Server Infos
+
+----
+date -u --iso-8601=s ; echo ; ntpq -c version ; echo ; ntpq -np ; echo ; ntpq -c as ; echo ; ntpq -c cv ; echo ; ntpq -c kern ; echo ; ntpq -c rv
+----
+
+...liefert...
+
+----
+2016-05-03T15:39:03+0000
+
+ntpq 4.2.8p6@1.3265-o Thu Mar 31 07:34:00 UTC 2016 (1)
+
+     remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*192.168.9.21    .PPSd.           1 u    -   64  377    0.873   -0.107   0.405
+o127.127.22.0    .PPSd.           0 l   14   16  377    0.000   -0.149   0.398
+ 192.168.9.29    .PPSd.           1 u  129  128  377    0.739   -0.001   0.085
+
+
+ind assid status  conf reach auth condition  last_event cnt
+===========================================================
+  1 39932  963a   yes   yes  none  sys.peer    sys_peer  3
+  2 39933  973a   yes   yes  none  pps.peer    sys_peer  3
+  3 39934  9024   yes   yes  none    reject   reachable  2
+
+associd=0 status=0000 no events, clk_unspec,
+device="PPS Clock Discipline", timecode=, poll=74, noreply=0,
+badformat=0, baddata=0, stratum=16, refid=80.80.83.100, flags=0
+
+associd=0 status=0115 leap_none, sync_pps, 1 event, clock_sync,
+pll offset:            -0.117973
+pll frequency:         10.8603
+maximum error:         0.0085
+estimated error:       0.00038
+kernel status:         pll nano
+pll time constant:     4
+precision:             1e-06
+frequency tolerance:   500
+pps frequency:         0
+pps stability:         0
+pps jitter:            0
+calibration interval   0
+calibration cycles:    0
+jitter exceeded:       0
+stability exceeded:    0
+calibration errors:    0
+
+associd=0 status=0115 leap_none, sync_pps, 1 event, clock_sync,
+version="ntpd 4.2.8p6@1.3265-o Thu Mar 31 07:33:51 UTC 2016 (1)",
+processor="i586", system="Linux/3.7.10-gentoo-net4801", leap=00,
+stratum=1, precision=-17, rootdelay=0.000, rootdisp=1.225, refid=PPSd,
+reftime=dad34489.1a062918  Tue, May  3 2016 15:38:49.101,
+clock=dad34498.e0b1d77d  Tue, May  3 2016 15:39:04.877, peer=39933, tc=4,
+mintc=3, offset=-0.149409, frequency=10.860, sys_jitter=0.398167,
+clk_jitter=0.380, clk_wander=0.115
+----
+
 === Server Peers and Variables
 
 ----
