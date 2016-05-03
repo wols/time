@@ -36,4 +36,6 @@ mintc=3, offset=0.910105, frequency=11.371, sys_jitter=0.839618,
 clk_jitter=0.332, clk_wander=0.113
 ----
 
-Das zugehörige NTP-Szenario erläutere ich in Kürze...
+==== Setup
+
+Das zugehörige NTP-Setup erläutere ich in Kürze...
