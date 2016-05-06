@@ -12,4 +12,4 @@ image::http://www.pool.ntp.org/static/images/logo.v1.png[align="left",link="http
 == 80.244.251.222
 
 
-image::http://graphs.ntppool.net/graph/80.244.251.222/offset.png[align=""left,link="http://www.pool.ntp.org/scores/80.244.251.222/"]
+image::http://graphs.ntppool.net/graph/80.244.251.222/offset.png[align="left",link="http://www.pool.ntp.org/scores/80.244.251.222/"]
