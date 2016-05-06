@@ -1,6 +1,13 @@
-= Next post 2
+= NTP Pool Project
 :published_at: 2016-03-30
-:hp-tags: ntp, networktime, utc
+:hp-tags: networktime, ntp, ntppool, utc
 :linkattrs:
 :toc: macro
 :toc-title: Inhalt
+
+image::http://www.pool.ntp.org/static/images/logo.v1.png[role="left",link="http://www.pool.ntp.org/"]
+
+== 80.244.251.222
+
+image::http://graphs.ntppool.net/graph/80.244.251.222/offset.png[role="left",link="http://www.pool.ntp.org/scores/80.244.251.222/"]
+
