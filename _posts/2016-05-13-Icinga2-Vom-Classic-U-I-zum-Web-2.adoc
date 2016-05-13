@@ -7,14 +7,15 @@
 
 Nach einigen Jahren Nagios und später Icinga(1), hatte ich nun erste Erfahrungen mit Icinga2 (Core) gesammelt.
 
+== Icinga2 Core mit ClassicUI und(!) Web 2
 
-Das ClassicUI war am neuen Icinga2 Core angekoppelt:
-
+.Icinga2 Core mit ClassicUI
 image::https://wols.github.io/time/images/2016/05/13/01-icinga1.png[Icinga2 Core mit ClassicUI]
 
+.Icinga2 Core mit Icinga Web 2
 image::https://wols.github.io/time/images/2016/05/13/01-icinga2.png[Icinga2 Core mit Icinga Web 2]
 
-Hier die nächsten Screenshots...
+== Hier die nächsten Screenshots
 
 Image 3
 
