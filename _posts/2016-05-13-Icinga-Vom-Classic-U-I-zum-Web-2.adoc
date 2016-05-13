@@ -7,6 +7,6 @@
 
 toc::[]
 
-Nach einigen Jahren Nagios und Icinga(1) hatte ich nun erste Erfahrungen mit Icinga2 (Core) gesammelt.
+Nach einigen Jahren Nagios und später Icinga(1) hatte ich nun erste Erfahrungen mit Icinga2 (Core) gesammelt.
 
 Das ClassicUI war am neuen Icinga2 angekoppelt:
