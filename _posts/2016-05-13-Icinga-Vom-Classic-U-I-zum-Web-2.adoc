@@ -11,10 +11,10 @@ Nach einigen Jahren Nagios und später Icinga(1), hatte ich nun erste Erfahrunge
 [cols="<,>", frame="none", grid="none"]
 |===
 
-2+| Das ClassicUI war am neuen Icinga2 angekoppelt:
+2+| Das ClassicUI war am neuen Icinga2 Core angekoppelt:
 
-| image::pictures/2016/05/13/01-icinga1.png
-| image::pictures/2016/05/13/01-icinga2.png
+| image::2016/05/13/01-icinga1.png
+| image::2016/05/13/01-icinga2.png
 
 2+| Hier die nächsten Screenshots...
 
