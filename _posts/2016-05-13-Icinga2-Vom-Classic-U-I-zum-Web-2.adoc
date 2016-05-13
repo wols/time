@@ -8,17 +8,15 @@
 Nach einigen Jahren Nagios und später Icinga(1), hatte ich nun erste Erfahrungen mit Icinga2 (Core) gesammelt.
 
 
-[cols="50,50", frame="none", grid="none"]
-|===
+Das ClassicUI war am neuen Icinga2 Core angekoppelt:
 
-2+| Das ClassicUI war am neuen Icinga2 Core angekoppelt:
+image::https://wols.github.io/time/images/2016/05/13/01-icinga1.png[Icinga2 Core mit ClassicUI]
 
-a| image::https://wols.github.io/time/images/2016/05/13/01-icinga1.png[, 500]
-a| image::https://wols.github.io/time/images/2016/05/13/01-icinga2.png[, 500]
+image::https://wols.github.io/time/images/2016/05/13/01-icinga2.png[Icinga2 Core mit Icinga Web 2]
 
-2+| Hier die nächsten Screenshots...
+Hier die nächsten Screenshots...
 
-| picture 3
-| picture 4
+Image 3
 
-|===
+Image 4
+
