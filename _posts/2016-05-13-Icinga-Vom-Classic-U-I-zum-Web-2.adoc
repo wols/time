@@ -15,9 +15,9 @@ Nach einigen Jahren Nagios und später Icinga(1), hatte ich nun erste Erfahrunge
 2+| Das ClassicUI war am neuen Icinga2 Core angekoppelt:
 |===
 
-image:01-icinga1.png[]
+image::01-icinga1.png[]
 
-image:01-icinga2.png[]
+image::01-icinga2.png[]
 
 |===
 2+| Hier die nächsten Screenshots...
