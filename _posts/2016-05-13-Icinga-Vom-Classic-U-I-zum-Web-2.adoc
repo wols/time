@@ -7,6 +7,20 @@
 
 toc::[]
 
-Nach einigen Jahren Nagios und später Icinga(1) hatte ich nun erste Erfahrungen mit Icinga2 (Core) gesammelt.
+Nach einigen Jahren Nagios und später Icinga(1), hatte ich nun erste Erfahrungen mit Icinga2 (Core) gesammelt.
 
-Das ClassicUI war am neuen Icinga2 angekoppelt:
+
+[cols="<,>"]
+|===
+
+2+| Das ClassicUI war am neuen Icinga2 angekoppelt:
+
+| picture 1
+| picture 2
+
+2+| Hier die nächsten Screenshots...
+
+| picture 3
+| picture 4
+
+|===
