@@ -1,4 +1,4 @@
-= Icinga - Vom ClassicUI zum Web 2
+= Icinga2 - Vom ClassicUI zum Web 2
 :published_at: 2016-05-13
 :hp-tags: monitoring, icinga2
 :linkattrs:
