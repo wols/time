@@ -13,8 +13,8 @@ Nach einigen Jahren Nagios und später Icinga(1), hatte ich nun erste Erfahrunge
 
 2+| Das ClassicUI war am neuen Icinga2 Core angekoppelt:
 
-a| image::https://wols.github.io/time/images/2016/05/13/01-icinga1.png[]
-a| image::https://wols.github.io/time/images/2016/05/13/01-icinga2.png[]
+a| image::https://wols.github.io/time/images/2016/05/13/01-icinga1.png[, 500]
+a| image::https://wols.github.io/time/images/2016/05/13/01-icinga2.png[, 500]
 
 2+| Hier die nächsten Screenshots...
 
