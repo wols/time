@@ -1,0 +1,12 @@
+= Icinga - Vom ClassicUI zum Web 2
+:published_at: 2016-05-13
+:hp-tags:
+:linkattrs:
+:toc: macro
+:toc-title: Inhalt
+
+toc::[]
+
+Nach einigen Jahren Nagios und Icinga(1) hatte ich nun erste Erfahrungen mit Icinga2 (Core) gesammelt.
+
+Das ClassicUI war am neuen Icinga2 angekoppelt:
