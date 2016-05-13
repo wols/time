@@ -1,6 +1,7 @@
 = Icinga - Vom ClassicUI zum Web 2
 :published_at: 2016-05-13
 :hp-tags: monitoring, icinga2
+:imagesdir: https://wols.github.io/time/images/
 :linkattrs:
 :toc: macro
 :toc-title: Inhalt
@@ -12,10 +13,13 @@ Nach einigen Jahren Nagios und später Icinga(1), hatte ich nun erste Erfahrunge
 |===
 
 2+| Das ClassicUI war am neuen Icinga2 Core angekoppelt:
+|===
 
-| image::https://wols.github.io/time/images/2016/05/13/01-icinga1.png
-| image::https://wols.github.io/time/images/2016/05/13/01-icinga2.png
+image::2016/05/13/01-icinga1.png
 
+image::https://wols.github.io/time/images/2016/05/13/01-icinga2.png[]
+
+|===
 2+| Hier die nächsten Screenshots...
 
 | picture 3
