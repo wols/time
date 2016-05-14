@@ -1,4 +1,4 @@
-= Icinga2 - Vom ClassicUI zum Web 2
+= Icinga2 - Vom ClassicUI zum Web2
 :published_at: 2016-05-13
 :hp-tags: monitoring, icinga2
 :linkattrs:
@@ -7,12 +7,12 @@
 
 Nach einigen Jahren Nagios und später Icinga(1), hatte ich nun erste Erfahrungen mit Icinga2 (Core) gesammelt.
 
-== Icinga2 Core mit ClassicUI und(!) Web 2
+== Icinga2 Core mit ClassicUI und(!) Web2
 
-.Icinga2 Core mit ClassicUI
+.Icinga2 Core mit ClassicUI 1.13.3
 image::https://wols.github.io/time/images/2016/05/13/01-icinga1.png[Icinga2 Core mit ClassicUI, link="https://wols.github.io/time/images/2016/05/13/01-icinga1.png"]
 
-.Icinga2 Core mit Icinga Web 2
+.Icinga2 Core mit IcingaWeb2 2.3.2
 image::https://wols.github.io/time/images/2016/05/13/01-icinga2.png[Icinga2 Core mit Icinga Web 2, link="https://wols.github.io/time/images/2016/05/13/01-icinga2.png"]
 
 == Hier die nächsten Screenshots
