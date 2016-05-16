@@ -91,7 +91,7 @@ Beide bestätigten Host-Probleme sind im ClassicUI ausgeblendet.
 .Icinga2 Core mit ClassicUI - 
 image::https://wols.github.io/time/images/2016/05/13/09-icinga1.png[Icinga2 Core mit ClassicUI - , link="https://wols.github.io/time/images/2016/05/13/09-icinga1.png"]
 
-Mit Icinga Web2 erinnern *ganz rechts die beiden Haken* an die vorangegangenen Problembestätigungen.
+Mit Icinga Web2 erinnern *ganz rechts die beiden Haken* und die *verringerte roten Flächen* an die vorangegangenen Problembestätigungen.
 
 .Icinga2 Core mit Icinga Web2 - 
 image::https://wols.github.io/time/images/2016/05/13/09-icinga2.png[Icinga2 Core mit Icinga Web2 - , link="https://wols.github.io/time/images/2016/05/13/09-icinga2.png"]
