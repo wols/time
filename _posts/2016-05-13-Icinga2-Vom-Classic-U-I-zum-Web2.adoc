@@ -26,3 +26,13 @@ Auf den ersten Blick war die neue Übersicht ein kleiner "Kulturschock" für mic
 
 .Icinga2 Core mit IcingaWeb2 - Taktische Übersicht
 image::https://wols.github.io/time/images/2016/05/13/02-icinga2.png[Icinga2 Core mit Icinga Web 2 - Taktische Übersicht, link="https://wols.github.io/time/images/2016/05/13/02-icinga2.png"]
+
+== Startansicht ist nun Dashboard
+
+.Icinga2 Core mit ClassicUI - Startansicht
+image::https://wols.github.io/time/images/2016/05/13/03-icinga1.png[Icinga2 Core mit ClassicUI - Startansicht, link="https://wols.github.io/time/images/2016/05/13/03-icinga1.png"]
+
+Im Vergleich fällt auf: Nicht nur die Host-Probleme sind sichtbar, auch die zugehörigen Service.
+
+.Icinga2 Core mit IcingaWeb2 - Dashboard
+image::https://wols.github.io/time/images/2016/05/13/03-icinga2.png[Icinga2 Core mit Icinga Web 2 - Dashboard, link="https://wols.github.io/time/images/2016/05/13/03-icinga2.png"]
