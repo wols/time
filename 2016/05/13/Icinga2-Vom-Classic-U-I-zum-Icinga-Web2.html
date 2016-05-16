@@ -80,7 +80,7 @@
     <meta property="og:description" content="Nach einigen Jahren Nagios und später Icinga(1), hatte ich nun auf Icinga2 (Core) umgestellt. Hier meine ersten Erfahrungen mit Icinga Web2 (2.3.2). Inhalt Icinga2 Core mit ClassicUI und(!) Icinga Web2 Im Vergleich: Taktische Übersicht Startansicht ist nun..." />
     <meta property="og:url" content="https://wols.github.io/time/2016/05/13/Icinga2-Vom-Classic-U-I-zum-Icinga-Web2.html" />
     <meta property="article:published_time" content="2016-05-12T22:00:00.000Z" />
-    <meta property="article:modified_time" content="2016-05-16T17:27:36.935Z" />
+    <meta property="article:modified_time" content="2016-05-16T17:39:31.512Z" />
     <meta property="article:tag" content="classicui" />
     <meta property="article:tag" content="monitoring" />
     <meta property="article:tag" content="icinga" />
@@ -107,7 +107,7 @@
     "headline": "Icinga2 - Vom ClassicUI zum Icinga Web2",
     "url": "https://wols.github.io/time/2016/05/13/Icinga2-Vom-Classic-U-I-zum-Icinga-Web2.html",
     "datePublished": "2016-05-12T22:00:00.000Z",
-    "dateModified": "2016-05-16T17:27:36.935Z",
+    "dateModified": "2016-05-16T17:39:31.512Z",
     "keywords": "classicui,  monitoring,  icinga,  icinga2,  icingaweb2",
     "description": "Nach einigen Jahren Nagios und später Icinga(1), hatte ich nun auf Icinga2 (Core) umgestellt. Hier meine ersten Erfahrungen mit Icinga Web2 (2.3.2). Inhalt Icinga2 Core mit ClassicUI und(!) Icinga Web2 Im Vergleich: Taktische Übersicht Startansicht ist nun..."
 }
@@ -237,9 +237,10 @@
 <li><a href="#_host_probleme_unter_taktische_bersicht">Host-Probleme unter Taktische Übersicht</a></li>
 <li><a href="#_zweites_host_problem_best_tigen">Zweites Host-Problem bestätigen</a></li>
 <li><a href="#_zweite_ansicht_host_probleme">Zweite Ansicht Host-Probleme</a></li>
-<li><a href="#_dashboard_muted">Dashboard Muted</a></li>
+<li><a href="#_dashboard_muted">Dashboard 'Muted'</a></li>
 <li><a href="#_dasboard_einstellungen">Dasboard-Einstellungen</a></li>
-<li><a href="#_dashboard_aktuelle_probleme_mit_neuem_filter">Dashboard Aktuelle Probleme mit neuem Filter</a></li>
+<li><a href="#_dashboard_aktuelle_probleme_mit_neuem_filter">Dashboard 'Aktuelle Probleme' mit neuem Filter</a></li>
+<li><a href="#_service_probleme">Service-Probleme</a></li>
 </ul>
 </div>
 </div>
@@ -410,10 +411,10 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="_dashboard_muted">Dashboard Muted</h2>
+<h2 id="_dashboard_muted">Dashboard 'Muted'</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Das Dashboard 'Muted' zeigt (wie von mir erwarted) unter der Überschrift &#8220;Bestätigte Host-Probleme&#8221; die beiden Einträge.</p>
+<p>Das Dashboard 'Muted' zeigt (wie von mir erwarted) unter der Überschrift 'Bestätigte Host-Probleme' die beiden Einträge.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -427,7 +428,7 @@
 <h2 id="_dasboard_einstellungen">Dasboard-Einstellungen</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Ich wollte nun meine gewohnte Darstellung der ausgeblendeten Host-Probleme auf dem Dashboard &#8220;Aktuelle Probleme&#8221; herstellen.</p>
+<p>Ich wollte nun meine gewohnte Darstellung der ausgeblendeten Host-Probleme auf dem Dashboard 'Aktuelle Probleme' herstellen.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -436,7 +437,7 @@
 <div class="title">Figure 18. Icinga2 Core mit Icinga Web2 - Dashboard-Einstellungen</div>
 </div>
 <div class="literalblock">
-<div class="title">Das Dashlet &#8220;Host-Probleme&#8221; hatte diese Filter hinterlegt:</div>
+<div class="title">Das Dashlet 'Host-Probleme' hatte diese Filter hinterlegt:</div>
 <div class="content">
 <pre>monitoring/list/hosts?host_problem=1&amp;sort=host_severity</pre>
 </div>
@@ -462,16 +463,51 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="_dashboard_aktuelle_probleme_mit_neuem_filter">Dashboard Aktuelle Probleme mit neuem Filter</h2>
+<h2 id="_dashboard_aktuelle_probleme_mit_neuem_filter">Dashboard 'Aktuelle Probleme' mit neuem Filter</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Jetzt sind die bestätigten Host-Probleme auch vom Dashboard &#8220;Aktuelle Probleme&#8221; ausgeblendet.</p>
+<p>Jetzt sind die bestätigten Host-Probleme auch vom Dashboard 'Aktuelle Probleme' ausgeblendet.</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<a class="image" href="https://wols.github.io/time/images/2016/05/13/10-icinga2.png"><img src="https://wols.github.io/time/images/2016/05/13/14-icinga2.png" alt="Icinga2 Core mit Icinga Web2 - Dashboard 'Aktuelle Probleme'"></a>
+<a class="image" href="https://wols.github.io/time/images/2016/05/13/14-icinga2.png"><img src="https://wols.github.io/time/images/2016/05/13/14-icinga2.png" alt="Icinga2 Core mit Icinga Web2 - Dashboard 'Aktuelle Probleme'"></a>
 </div>
 <div class="title">Figure 21. Icinga2 Core mit Icinga Web2 - Dashboard 'Aktuelle Probleme'</div>
+</div>
+<div class="paragraph">
+<p>Zur Erinnerung: Unter <a href="#_dashboard_muted">'Muted'</a> findet man sie natürlich noch.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_service_probleme">Service-Probleme</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Die Darstellung der Service-Probleme im ClassicUI ist vielen bestimmt noch bekannt.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="https://wols.github.io/time/images/2016/05/13/15-icinga1.png"><img src="https://wols.github.io/time/images/2016/05/13/15-icinga1.png" alt="Icinga2 Core mit ClassicUI - Service-Probleme"></a>
+</div>
+<div class="title">Figure 22. Icinga2 Core mit ClassicUI - Service-Probleme</div>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+Mit Icinga Web 2 funktioniert links eine Mehrfachauswahl: Anklicken bei gdrückter SHIFT-Taste.
+</td>
+</tr>
+</table>
+</div>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="https://wols.github.io/time/images/2016/05/13/15-icinga2.png"><img src="https://wols.github.io/time/images/2016/05/13/15-icinga2.png" alt="Icinga2 Core mit Icinga Web2 - Service-Probleme"></a>
+</div>
+<div class="title">Figure 23. Icinga2 Core mit Icinga Web2 - Service-Probleme</div>
 </div>
 </div>
 </div>
