@@ -66,3 +66,17 @@ image::https://wols.github.io/time/images/2016/05/13/06-icinga1.png[Icinga2 Core
 
 .Icinga2 Core mit Icinga Web2 - Host Probleme
 image::https://wols.github.io/time/images/2016/05/13/06-icinga2.png[Icinga2 Core mit Icinga Web2 - Host-Probleme, link="https://wols.github.io/time/images/2016/05/13/06-icinga2.png"]
+
+== Host-Probleme unter Taktische Übersicht
+
+Die viel detaillierte Taktische Übersicht des ClassicUI zeigt das bestätigte Host-Problem.
+
+.Icinga2 Core mit ClassicUI - Taktische Übersicht
+image::https://wols.github.io/time/images/2016/05/13/07-icinga1.png[Icinga2 Core mit ClassicUI - Taktische Übersicht, link="https://wols.github.io/time/images/2016/05/13/07-icinga1.png"]
+
+Bei Icinga Web2 gibt es keinen Unterschied zur <<Im Vergleich: Taktische Übersicht, Anfangsdarstellung>>.
+
+.Icinga2 Core mit Icinga Web2 - Taktisch Übersicht
+image::https://wols.github.io/time/images/2016/05/13/07-icinga2.png[Icinga2 Core mit Icinga Web2 - Taktische Übersicht, link="https://wols.github.io/time/images/2016/05/13/07-icinga2.png"]
+
+== wird fortgesetzt...
