@@ -42,18 +42,18 @@ Im Vergleich fällt auf: Auf dem Dashboard 'Aktuelle Probleme' sind nicht nur re
 .Icinga2 Core mit Icinga Web2 - Dashboard 'Aktuelle Probleme'
 image::https://wols.github.io/time/images/2016/05/13/03-icinga2.png[Icinga2 Core mit Icinga Web2 - Dashboard, link="https://wols.github.io/time/images/2016/05/13/03-icinga2.png"]
 
-== Host-Problem bestätigen
+== Erstes Host-Problem bestätigen
 
 Beim Bestätigen lautete der Kommentar "`Problem via Icinga Web2 bestätigt`".
 
-.Icinga2 Core mit Icinga Web2 - Host-Problem via IcingaWeb2 bestätigt
+.Icinga2 Core mit Icinga Web2 - Erstes Host-Problem via IcingaWeb2 bestätigt
 image::https://wols.github.io/time/images/2016/05/13/04-icinga2.png[Icinga2 Core mit Icinga Web2 - Host-Problem via IcingaWeb2 bestätigt, link="https://wols.github.io/time/images/2016/05/13/04-icinga2.png"]
 
 == Verschiedene Darstellung des bestätigten Host-Problems
 
 Im ClassicUI wird das bestätigte Host-Problem (wie für mich gewohnt) ausgeblendet.
 
-.Icinga2 Core mit ClassicUI - Bestätigtes Host-Problem ausgeblendet
+.Icinga2 Core mit ClassicUI - Erstes bestätigtes Host-Problem ausgeblendet
 image::https://wols.github.io/time/images/2016/05/13/05-icinga1.png[Icinga2 Core mit ClassicUI - Dashboard, link="https://wols.github.io/time/images/2016/05/13/05-icinga1.png"]
 
 .Icinga2 Core mit Icinga Web2 - Dashboard 'Aktuelle Probleme' mit unbestätigtem und bestätigtem Host-Problem
@@ -78,5 +78,15 @@ Bei Icinga Web2 gibt es keinen Unterschied zur <<Im Vergleich: Taktische Übersi
 
 .Icinga2 Core mit Icinga Web2 - Taktisch Übersicht
 image::https://wols.github.io/time/images/2016/05/13/07-icinga2.png[Icinga2 Core mit Icinga Web2 - Taktische Übersicht, link="https://wols.github.io/time/images/2016/05/13/07-icinga2.png"]
+
+== Bestätigung des zweiten Host-Problems
+
+.Icinga2 Core mit ClassicUI - Taktische Übersicht
+image::https://wols.github.io/time/images/2016/05/13/08-icinga1.png[Icinga2 Core mit ClassicUI - Taktische Übersicht, link="https://wols.github.io/time/images/2016/05/13/08-icinga1.png"]
+
+Bei Icinga Web2 gibt es keinen Unterschied zur <<Im Vergleich: Taktische Übersicht, Anfangsdarstellung>>.
+
+.Icinga2 Core mit Icinga Web2 - Taktisch Übersicht
+image::../../../images/2016/05/13/08-icinga2.png[Icinga2 Core mit Icinga Web2 - Taktische Übersicht, link="https://wols.github.io/time/images/2016/05/13/08-icinga2.png"]
 
 == wird fortgesetzt...
