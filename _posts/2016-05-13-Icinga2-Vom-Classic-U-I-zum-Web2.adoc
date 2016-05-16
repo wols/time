@@ -1,6 +1,6 @@
 = Icinga2 - Vom ClassicUI zum Web2
 :published_at: 2016-05-13
-:hp-tags: monitoring, icinga2
+:hp-tags: classicui, monitoring, icinga, icinga2, icingaweb2
 :linkattrs:
 :toc: macro
 :toc-title: Inhalt
