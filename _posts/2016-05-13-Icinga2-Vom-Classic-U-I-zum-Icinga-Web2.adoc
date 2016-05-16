@@ -96,4 +96,9 @@ Mit Icinga Web2 erinnern *ganz rechts die beiden Haken* und die *verringerte rot
 .Icinga2 Core mit Icinga Web2 - 
 image::https://wols.github.io/time/images/2016/05/13/09-icinga2.png[Icinga2 Core mit Icinga Web2 - , link="https://wols.github.io/time/images/2016/05/13/09-icinga2.png"]
 
-== wird fortgesetzt...
+== Dashboard Muted
+
+Das Dashboard 'Muted' zeigt (wie von mir erwarted) unter der Überschrift "`Bestätigte Host-Probleme`" die beiden Einträge.
+
+.Icinga2 Core mit Icinga Web2 - Dashboard 'Muted'
+image::https://wols.github.io/time/images/2016/05/13/10-icinga2.png[Icinga2 Core mit Icinga Web2 - Dashboard 'Muted', link="https://wols.github.io/time/images/2016/05/13/10-icinga2.png"]
