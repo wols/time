@@ -9,7 +9,7 @@ toc::[]
 
 Nach einigen Jahren Nagios und später Icinga(1), hatte ich nun auf Icinga2 (Core) umgestellt.
 
-TIP: Hier nun meine ersten Erfahrungen mit Icinga Web 2 (2.3.2).
+NOTE: Hier nun meine ersten Erfahrungen mit Icinga Web 2 (2.3.2).
 
 == Icinga2 Core mit ClassicUI und(!) Icinga Web2
 
