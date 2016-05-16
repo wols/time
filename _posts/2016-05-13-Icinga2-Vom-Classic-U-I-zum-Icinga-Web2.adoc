@@ -37,12 +37,19 @@ Im Vergleich fällt auf: Auf dem Dashboard 'Aktuelle Probleme' sind nicht nur di
 .Icinga2 Core mit Icinga Web2 - Dashboard 'Aktuelle Probleme'
 image::https://wols.github.io/time/images/2016/05/13/03-icinga2.png[Icinga2 Core mit Icinga Web 2 - Dashboard, link="https://wols.github.io/time/images/2016/05/13/03-icinga2.png"]
 
-== Host-Problem bestätigt
+== Host-Problem bestätigen
 
 Beim Bestätigen lautete der Kommentar "`Problem via Icinga Web2 bestätigt`".
 
 .Icinga2 Core mit Icinga Web2 - Host-Problem via IcingaWeb2 bestätigt
 image::https://wols.github.io/time/images/2016/05/13/03-icinga1.png[Icinga2 Core mit ClassicUI - Startansicht, link="https://wols.github.io/time/images/2016/05/13/04-icinga2.png"]
 
+== Verschiedene Darstellung des bestätigten Host-Problems
+
+Im ClassicUI wird das bestätigte Host-Problem (wie für mich gewohnt) ausgeblendet.
+
 .Icinga2 Core mit ClassicUI - Bestätigtes Host-Problem ausgeblendet
-image::https://wols.github.io/time/images/2016/05/13/03-icinga2.png[Icinga2 Core mit Icinga Web 2 - Dashboard, link="https://wols.github.io/time/images/2016/05/13/04-icinga1.png"]
+image::https://wols.github.io/time/images/2016/05/13/03-icinga2.png[Icinga2 Core mit Icinga Web 2 - Dashboard, link="https://wols.github.io/time/images/2016/05/13/05-icinga1.png"]
+
+.Icinga2 Core mit Icinga Web 2 - Dashboard 'Aktuelle Probleme' mit unbestätigtem und bestätigtem Host-Problem
+image::https://wols.github.io/time/images/2016/05/13/03-icinga2.png[Icinga2 Core mit Icinga Web 2 - Dashboard, link="https://wols.github.io/time/images/2016/05/13/05-icinga2.png"]
