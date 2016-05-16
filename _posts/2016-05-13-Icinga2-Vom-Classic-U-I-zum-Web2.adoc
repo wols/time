@@ -17,9 +17,10 @@ image::https://wols.github.io/time/images/2016/05/13/01-icinga1.png[Icinga2 Core
 .Icinga2 Core mit IcingaWeb2 2.3.2
 image::https://wols.github.io/time/images/2016/05/13/01-icinga2.png[Icinga2 Core mit Icinga Web 2, link="https://wols.github.io/time/images/2016/05/13/01-icinga2.png"]
 
-== Hier die nächsten Screenshots
+== Im Vergleich: Taktische Übersicht
 
-Image 3
+.Icinga2 Core mit ClassicUI - Taktische Übersicht
+image::https://wols.github.io/time/images/2016/05/13/02-icinga1.png[Icinga2 Core mit ClassicUI - Taktische Übersicht, link="https://wols.github.io/time/images/2016/05/13/02-icinga1.png"]
 
-Image 4
-
+.Icinga2 Core mit IcingaWeb2 - Taktische Übersicht
+image::https://wols.github.io/time/images/2016/05/13/02-icinga2.png[Icinga2 Core mit Icinga Web 2 - Taktische Übersicht, link="https://wols.github.io/time/images/2016/05/13/02-icinga2.png"]
