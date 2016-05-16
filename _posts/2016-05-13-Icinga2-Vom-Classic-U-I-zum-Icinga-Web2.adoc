@@ -119,8 +119,7 @@ monitoring/list/hosts?host_problem=1&sort=host_severity
 .Icinga2 Core mit Icinga Web2 - Dashlet bearbeiten
 image::https://wols.github.io/time/images/2016/05/13/12-icinga2.png[Icinga2 Core mit Icinga Web2 - Dashlet bearbeiten, link="https://wols.github.io/time/images/2016/05/13/12-icinga2.png"]
 
-Meine Ergänzung mit `&host_acknowledged=0` ergibt dann die neue Zeile.
-
+.Meine Ergänzung mit `&host_acknowledged=0` ergibt dann die neue Zeile.
 ....
 monitoring/list/hosts?host_problem=1&host_acknowledged=0&sort=host_severity
 ....
