@@ -126,3 +126,10 @@ monitoring/list/hosts?host_problem=1&host_acknowledged=0&sort=host_severity
 
 .Icinga2 Core mit Icinga Web2 - Dashboard-Einstellungen
 image::https://wols.github.io/time/images/2016/05/13/13-icinga2.png[Icinga2 Core mit Icinga Web2 - Dashboard-Einstellungen, link="https://wols.github.io/time/images/2016/05/13/13-icinga2.png"]
+
+== Dashboard Aktuelle Probleme mit neuem Filter
+
+Jetzt sind die bestätigten Host-Probleme auch vom Dashboard "`Aktuelle Probleme`" ausgeblendet.
+
+.Icinga2 Core mit Icinga Web2 - Dashboard 'Aktuelle Probleme'
+image::https://wols.github.io/time/images/2016/05/13/14-icinga2.png[Icinga2 Core mit Icinga Web2 - Dashboard 'Aktuelle Probleme', link="https://wols.github.io/time/images/2016/05/13/10-icinga2.png"]
