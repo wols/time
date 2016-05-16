@@ -42,7 +42,7 @@ image::https://wols.github.io/time/images/2016/05/13/03-icinga2.png[Icinga2 Core
 Der Kommentar beim bestätigen lautete "Problem via Icinga Web2 bestätigt".
 
 .Icinga2 Core mit Icinga Web2 - Host-Problem via IcingaWeb2 bestätigt
-image::https://wols.github.io/time/images/2016/05/13/03-icinga1.png[Icinga2 Core mit ClassicUI - Startansicht, link="https://wols.github.io/time/images/2016/05/13/03-icinga1.png"]
+image::https://wols.github.io/time/images/2016/05/13/03-icinga1.png[Icinga2 Core mit ClassicUI - Startansicht, link="https://wols.github.io/time/images/2016/05/13/04-icinga2.png"]
 
 .Icinga2 Core mit ClassicUI - Bestätigtes Host-Problem ausgeblendet
-image::https://wols.github.io/time/images/2016/05/13/03-icinga2.png[Icinga2 Core mit Icinga Web 2 - Dashboard, link="https://wols.github.io/time/images/2016/05/13/03-icinga2.png"]
+image::https://wols.github.io/time/images/2016/05/13/03-icinga2.png[Icinga2 Core mit Icinga Web 2 - Dashboard, link="https://wols.github.io/time/images/2016/05/13/04-icinga1.png"]
