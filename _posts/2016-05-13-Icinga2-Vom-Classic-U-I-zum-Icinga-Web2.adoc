@@ -7,9 +7,12 @@
 
 toc::[]
 
+[NOTE]
+====
 Nach einigen Jahren Nagios und später Icinga(1), hatte ich nun auf Icinga2 (Core) umgestellt.
 
-NOTE: Hier meine ersten Erfahrungen mit Icinga Web2 (2.3.2).
+Hier meine ersten Erfahrungen mit Icinga Web2 (2.3.2).
+====
 
 == Icinga2 Core mit ClassicUI und(!) Icinga Web2
 
