@@ -103,3 +103,10 @@ Das Dashboard 'Muted' zeigt (wie von mir erwarted) unter der Überschrift "`Best
 
 .Icinga2 Core mit Icinga Web2 - Dashboard 'Muted'
 image::https://wols.github.io/time/images/2016/05/13/10-icinga2.png[Icinga2 Core mit Icinga Web2 - Dashboard 'Muted', link="https://wols.github.io/time/images/2016/05/13/10-icinga2.png"]
+
+== Dasboard-Einstellungen
+
+Ich wollte nun meine gewohnte Darstellung der ausgeblendeten Host-Probleme auf dem Dashboard "`Aktuelle Probleme`" herstellen.
+
+.Icinga2 Core mit Icinga Web2 - Dashboard-Einstellungen
+image::https://wols.github.io/time/images/2016/05/13/11-icinga2.png[Icinga2 Core mit Icinga Web2 - Dashboard-Einstellungen, link="https://wols.github.io/time/images/2016/05/13/11-icinga2.png"]
