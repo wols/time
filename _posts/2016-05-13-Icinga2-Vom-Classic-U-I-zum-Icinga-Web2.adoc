@@ -81,8 +81,8 @@ image::https://wols.github.io/time/images/2016/05/13/07-icinga2.png[Icinga2 Core
 
 == Zweites Host-Problem bestätigen
 
-.Icinga2 Core mit Icinga Web2 - Erstes Host-Problem via IcingaWeb2 bestätigt
-image::https://wols.github.io/time/images/2016/05/13/08-icinga2.png[Icinga2 Core mit Icinga Web2 - Erstes Host-Problem via IcingaWeb2 bestätigt, link="https://wols.github.io/time/images/2016/05/13/08-icinga2.png"]
+.Icinga2 Core mit Icinga Web2 - Zweites Host-Problem via IcingaWeb2 bestätigt
+image::https://wols.github.io/time/images/2016/05/13/08-icinga2.png[Icinga2 Core mit Icinga Web2 - Zweites Host-Problem via IcingaWeb2 bestätigt, link="https://wols.github.io/time/images/2016/05/13/08-icinga2.png"]
 
 == Zweite Ansicht Host-Probleme
 
