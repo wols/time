@@ -32,3 +32,8 @@ toc::[]
 
 * http://www.uhrenhanse.de/sammlerecke/wissenswertes/hoffmann.htm[Ist es IIII Uhr oder IV Uhr?, window="_blank"]
 * ...
+
+== Monitoring
+
+* Icinga2
+** https://www.spiller.me/tag/icinga2/[/SYS/ADM/AMA Alle Artikel mit dem Schlagwort: icinga2, window="_blank"]
