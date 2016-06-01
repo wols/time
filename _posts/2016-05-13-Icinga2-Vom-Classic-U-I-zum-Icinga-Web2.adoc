@@ -5,7 +5,6 @@
 :toc: macro
 :toc-title: Inhalt
 
-
 [NOTE]
 ====
 Nach einigen Jahren Nagios und später Icinga(1), hatte ich nun auf Icinga2 (Core) umgestellt.
@@ -18,10 +17,10 @@ toc::[]
 == Icinga2 Core mit ClassicUI und(!) Icinga Web2
 
 .Icinga2 Core mit ClassicUI 1.13.3
-image::https://wols.github.io/time/images/2016/05/13/01-icinga1.png[Icinga2 Core mit ClassicUI, link="https://wols.github.io/time/images/2016/05/13/01-icinga1.png"]
+image::https://wols.github.io/time/images/2016/05/13/01-icinga1_prev.png[Icinga2 Core mit ClassicUI, link="https://wols.github.io/time/images/2016/05/13/01-icinga1.png"]
 
 .Icinga2 Core mit Icinga Web2 2.3.2
-image::https://wols.github.io/time/images/2016/05/13/01-icinga2.png[Icinga2 Core mit Icinga Web2, link="https://wols.github.io/time/images/2016/05/13/01-icinga2.png"]
+image::https://wols.github.io/time/images/2016/05/13/01-icinga2_prev.png[Icinga2 Core mit Icinga Web2, link="https://wols.github.io/time/images/2016/05/13/01-icinga2.png"]
 
 == Im Vergleich: Taktische Übersicht
 
