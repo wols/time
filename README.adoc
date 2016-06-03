@@ -1,1 +1,1 @@
-# https://wols.github.io/time/
+# http://time.wols.org/
