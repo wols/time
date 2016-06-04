@@ -57,7 +57,7 @@ Im ClassicUI wird das bestätigte Host-Problem (wie für mich gewohnt) ausgeblen
 image::2016/05/13/05-icinga1_prev.png[Icinga2 Core mit ClassicUI - Dashboard, link="https://wols.github.io/time/images/2016/05/13/05-icinga1.png"]
 
 .Icinga2 Core mit Icinga Web2 - Dashboard 'Aktuelle Probleme' mit unbestätigtem und bestätigtem Host-Problem
-image::https://wols.github.io/time/images/2016/05/13/05-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Dashboard, link="https://wols.github.io/time/images/2016/05/13/05-icinga2.png"]
+image::2016/05/13/05-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Dashboard, link="https://wols.github.io/time/images/2016/05/13/05-icinga2.png"]
 
 == Erste Ansicht Host-Probleme
 
