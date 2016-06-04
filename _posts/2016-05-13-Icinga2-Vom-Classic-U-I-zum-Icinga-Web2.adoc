@@ -20,41 +20,41 @@ toc::[]
 image::2016/05/13/01-icinga1_prev.png[Icinga2 Core mit ClassicUI, link="https://wols.github.io/time/images/2016/05/13/01-icinga1.png"]
 
 .Icinga2 Core mit Icinga Web2 2.3.2
-image::https://wols.github.io/time/images/2016/05/13/01-icinga2_prev.png[Icinga2 Core mit Icinga Web2, link="https://wols.github.io/time/images/2016/05/13/01-icinga2.png"]
+image::2016/05/13/01-icinga2_prev.png[Icinga2 Core mit Icinga Web2, link="https://wols.github.io/time/images/2016/05/13/01-icinga2.png"]
 
 == Im Vergleich: Taktische Übersicht
 
 .Icinga2 Core mit ClassicUI - Taktische Übersicht
-image::https://wols.github.io/time/images/2016/05/13/02-icinga1_prev.png[Icinga2 Core mit ClassicUI - Taktische Übersicht, link="https://wols.github.io/time/images/2016/05/13/02-icinga1.png"]
+image::2016/05/13/02-icinga1_prev.png[Icinga2 Core mit ClassicUI - Taktische Übersicht, link="https://wols.github.io/time/images/2016/05/13/02-icinga1.png"]
 
 Auf den ersten Blick war die neue Übersicht ein kleiner "Kulturschock" für mich :-)
 
 .Icinga2 Core mit Icinga Web2 - Taktische Übersicht
-image::https://wols.github.io/time/images/2016/05/13/02-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Taktische Übersicht, link="https://wols.github.io/time/images/2016/05/13/02-icinga2.png"]
+image::2016/05/13/02-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Taktische Übersicht, link="https://wols.github.io/time/images/2016/05/13/02-icinga2.png"]
 
 == Startansicht ist nun Dashboard
 
 .Icinga2 Core mit ClassicUI - Startansicht mit zwei aktuellen Host-Problemen
-image::https://wols.github.io/time/images/2016/05/13/03-icinga1_prev.png[Icinga2 Core mit ClassicUI - Startansicht, link="https://wols.github.io/time/images/2016/05/13/03-icinga1.png"]
+image::2016/05/13/03-icinga1_prev.png[Icinga2 Core mit ClassicUI - Startansicht, link="https://wols.github.io/time/images/2016/05/13/03-icinga1.png"]
 
 Im Vergleich fällt auf: Auf dem Dashboard 'Aktuelle Probleme' sind nicht nur rechts die Host-Probleme sichtbar, auch links die zugehörigen Services.
 
 .Icinga2 Core mit Icinga Web2 - Dashboard 'Aktuelle Probleme'
-image::https://wols.github.io/time/images/2016/05/13/03-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Dashboard, link="https://wols.github.io/time/images/2016/05/13/03-icinga2.png"]
+image::2016/05/13/03-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Dashboard, link="https://wols.github.io/time/images/2016/05/13/03-icinga2.png"]
 
 == Erstes Host-Problem bestätigen
 
 Beim Bestätigen lautete der Kommentar "`Problem via Icinga Web2 bestätigt`".
 
 .Icinga2 Core mit Icinga Web2 - Erstes Host-Problem via IcingaWeb2 bestätigt
-image::https://wols.github.io/time/images/2016/05/13/04-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Host-Problem via IcingaWeb2 bestätigt, link="https://wols.github.io/time/images/2016/05/13/04-icinga2.png"]
+image::2016/05/13/04-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Host-Problem via IcingaWeb2 bestätigt, link="https://wols.github.io/time/images/2016/05/13/04-icinga2.png"]
 
 == Verschiedene Darstellung des bestätigten Host-Problems
 
 Im ClassicUI wird das bestätigte Host-Problem (wie für mich gewohnt) ausgeblendet.
 
 .Icinga2 Core mit ClassicUI - Erstes bestätigtes Host-Problem ausgeblendet
-image::https://wols.github.io/time/images/2016/05/13/05-icinga1_prev.png[Icinga2 Core mit ClassicUI - Dashboard, link="https://wols.github.io/time/images/2016/05/13/05-icinga1.png"]
+image::2016/05/13/05-icinga1_prev.png[Icinga2 Core mit ClassicUI - Dashboard, link="https://wols.github.io/time/images/2016/05/13/05-icinga1.png"]
 
 .Icinga2 Core mit Icinga Web2 - Dashboard 'Aktuelle Probleme' mit unbestätigtem und bestätigtem Host-Problem
 image::https://wols.github.io/time/images/2016/05/13/05-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Dashboard, link="https://wols.github.io/time/images/2016/05/13/05-icinga2.png"]
@@ -62,53 +62,53 @@ image::https://wols.github.io/time/images/2016/05/13/05-icinga2_prev.png[Icinga2
 == Erste Ansicht Host-Probleme
 
 .Icinga2 Core mit ClassicUI - Host-Probleme
-image::https://wols.github.io/time/images/2016/05/13/06-icinga1_prev.png[Icinga2 Core mit ClassicUI - Host-Probleme, link="https://wols.github.io/time/images/2016/05/13/06-icinga1.png"]
+image::2016/05/13/06-icinga1_prev.png[Icinga2 Core mit ClassicUI - Host-Probleme, link="https://wols.github.io/time/images/2016/05/13/06-icinga1.png"]
 
 .Icinga2 Core mit Icinga Web2 - Host Probleme
-image::https://wols.github.io/time/images/2016/05/13/06-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Host-Probleme, link="https://wols.github.io/time/images/2016/05/13/06-icinga2.png"]
+image::2016/05/13/06-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Host-Probleme, link="https://wols.github.io/time/images/2016/05/13/06-icinga2.png"]
 
 == Host-Probleme unter Taktische Übersicht
 
 Die viel detaillierte Taktische Übersicht des ClassicUI zeigt das bestätigte Host-Problem.
 
 .Icinga2 Core mit ClassicUI - Taktische Übersicht
-image::https://wols.github.io/time/images/2016/05/13/07-icinga1_prev.png[Icinga2 Core mit ClassicUI - Taktische Übersicht, link="https://wols.github.io/time/images/2016/05/13/07-icinga1.png"]
+image::2016/05/13/07-icinga1_prev.png[Icinga2 Core mit ClassicUI - Taktische Übersicht, link="https://wols.github.io/time/images/2016/05/13/07-icinga1.png"]
 
 Bei Icinga Web2 gibt es keinen Unterschied zur <<Im Vergleich: Taktische Übersicht, Anfangsdarstellung>>.
 
 .Icinga2 Core mit Icinga Web2 - Taktisch Übersicht
-image::https://wols.github.io/time/images/2016/05/13/07-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Taktische Übersicht, link="https://wols.github.io/time/images/2016/05/13/07-icinga2.png"]
+image::2016/05/13/07-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Taktische Übersicht, link="https://wols.github.io/time/images/2016/05/13/07-icinga2.png"]
 
 == Zweites Host-Problem bestätigen
 
 .Icinga2 Core mit Icinga Web2 - Zweites Host-Problem via IcingaWeb2 bestätigt
-image::https://wols.github.io/time/images/2016/05/13/08-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Zweites Host-Problem via IcingaWeb2 bestätigt, link="https://wols.github.io/time/images/2016/05/13/08-icinga2.png"]
+image::2016/05/13/08-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Zweites Host-Problem via IcingaWeb2 bestätigt, link="https://wols.github.io/time/images/2016/05/13/08-icinga2.png"]
 
 == Zweite Ansicht Host-Probleme
 
 Beide bestätigten Host-Probleme sind im ClassicUI ausgeblendet.
 
 .Icinga2 Core mit ClassicUI - Host-Probleme
-image::https://wols.github.io/time/images/2016/05/13/09-icinga1_prev.png[Icinga2 Core mit ClassicUI - Host-Probleme, link="https://wols.github.io/time/images/2016/05/13/09-icinga1.png"]
+image::2016/05/13/09-icinga1_prev.png[Icinga2 Core mit ClassicUI - Host-Probleme, link="https://wols.github.io/time/images/2016/05/13/09-icinga1.png"]
 
 Mit Icinga Web2 erinnern *ganz rechts die beiden Haken* und die *verringerte roten Flächen* an die vorangegangenen Problembestätigungen.
 
 .Icinga2 Core mit Icinga Web2 - Host-Probleme
-image::https://wols.github.io/time/images/2016/05/13/09-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Host-Probleme, link="https://wols.github.io/time/images/2016/05/13/09-icinga2.png"]
+image::2016/05/13/09-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Host-Probleme, link="https://wols.github.io/time/images/2016/05/13/09-icinga2.png"]
 
 == Dashboard 'Muted'
 
 Das Dashboard 'Muted' zeigt (wie von mir erwarted) unter der Überschrift 'Bestätigte Host-Probleme' die beiden Einträge.
 
 .Icinga2 Core mit Icinga Web2 - Dashboard 'Muted'
-image::https://wols.github.io/time/images/2016/05/13/10-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Dashboard 'Muted', link="https://wols.github.io/time/images/2016/05/13/10-icinga2.png"]
+image::2016/05/13/10-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Dashboard 'Muted', link="https://wols.github.io/time/images/2016/05/13/10-icinga2.png"]
 
 == Dasboard-Einstellungen
 
 Ich wollte nun meine gewohnte Darstellung der ausgeblendeten Host-Probleme auf dem Dashboard 'Aktuelle Probleme' herstellen.
 
 .Icinga2 Core mit Icinga Web2 - Dashboard-Einstellungen
-image::https://wols.github.io/time/images/2016/05/13/11-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Dashboard-Einstellungen, link="https://wols.github.io/time/images/2016/05/13/11-icinga2.png"]
+image::2016/05/13/11-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Dashboard-Einstellungen, link="https://wols.github.io/time/images/2016/05/13/11-icinga2.png"]
 
 .Das Dashlet 'Host-Probleme' hatte diese Filter hinterlegt:
 ....
@@ -116,7 +116,7 @@ monitoring/list/hosts?host_problem=1&sort=host_severity
 ....
 
 .Icinga2 Core mit Icinga Web2 - Dashlet bearbeiten
-image::https://wols.github.io/time/images/2016/05/13/12-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Dashlet bearbeiten, link="https://wols.github.io/time/images/2016/05/13/12-icinga2.png"]
+image::2016/05/13/12-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Dashlet bearbeiten, link="https://wols.github.io/time/images/2016/05/13/12-icinga2.png"]
 
 .Meine Ergänzung mit `&host_acknowledged=0` ergibt dann die neue Zeile.
 ....
@@ -124,14 +124,14 @@ monitoring/list/hosts?host_problem=1&host_acknowledged=0&sort=host_severity
 ....
 
 .Icinga2 Core mit Icinga Web2 - Dashboard-Einstellungen
-image::https://wols.github.io/time/images/2016/05/13/13-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Dashboard-Einstellungen, link="https://wols.github.io/time/images/2016/05/13/13-icinga2.png"]
+image::2016/05/13/13-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Dashboard-Einstellungen, link="https://wols.github.io/time/images/2016/05/13/13-icinga2.png"]
 
 == Dashboard 'Aktuelle Probleme' mit neuem Filter
 
 Jetzt sind die bestätigten Host-Probleme auch vom Dashboard 'Aktuelle Probleme' ausgeblendet.
 
 .Icinga2 Core mit Icinga Web2 - Dashboard 'Aktuelle Probleme'
-image::https://wols.github.io/time/images/2016/05/13/14-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Dashboard 'Aktuelle Probleme', link="https://wols.github.io/time/images/2016/05/13/14-icinga2.png"]
+image::2016/05/13/14-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Dashboard 'Aktuelle Probleme', link="https://wols.github.io/time/images/2016/05/13/14-icinga2.png"]
 
 Zur Erinnerung: Unter <<Dashboard 'Muted', 'Muted'>> findet man sie natürlich noch.
 
@@ -140,18 +140,18 @@ Zur Erinnerung: Unter <<Dashboard 'Muted', 'Muted'>> findet man sie natürlich n
 Die Darstellung der Service-Probleme im ClassicUI ist vielen bestimmt noch bekannt.
 
 .Icinga2 Core mit ClassicUI - Service-Probleme
-image::https://wols.github.io/time/images/2016/05/13/15-icinga1_prev.png[Icinga2 Core mit ClassicUI - Service-Probleme, link="https://wols.github.io/time/images/2016/05/13/15-icinga1.png"]
+image::2016/05/13/15-icinga1_prev.png[Icinga2 Core mit ClassicUI - Service-Probleme, link="https://wols.github.io/time/images/2016/05/13/15-icinga1.png"]
 
 TIP: Mit Icinga Web 2 funktioniert links eine Mehrfachauswahl: Anklicken bei gdrückter SHIFT-Taste.
 
 .Icinga2 Core mit Icinga Web2 - Service-Probleme (Mehrfachauswahl)
-image::https://wols.github.io/time/images/2016/05/13/15-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Service-Probleme (Mehrfachauswahl), link="https://wols.github.io/time/images/2016/05/13/15-icinga2.png"]
+image::2016/05/13/15-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Service-Probleme (Mehrfachauswahl), link="https://wols.github.io/time/images/2016/05/13/15-icinga2.png"]
 
 == Mehrfache Bestätigung
 
 Durch die vorherige Mehfachauswahl sind mit einem Schlag alle vier Service-Probleme bestätigt und der Kommentar bei allen eingetragen.
 
 .Icinga2 Core mit Icinga Web 2 - Services - Kommentare
-image::https://wols.github.io/time/images/2016/05/13/16-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Services - Kommentare, link="https://wols.github.io/time/images/2016/05/13/16-icinga2.png"]
+image::2016/05/13/16-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Services - Kommentare, link="https://wols.github.io/time/images/2016/05/13/16-icinga2.png"]
 
 ==== wird fortgesetzt...
