@@ -158,6 +158,8 @@ image::2016/05/13/16-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Services - 
 
 
 
+// Don't remove next (last) lines!
+
 ++++
 <!-- Piwik -->
 <script type="text/javascript">
@@ -176,4 +178,3 @@ image::2016/05/13/16-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Services - 
 <noscript><p><img src="//wolsorg.pro-ssl.de/analytics/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
 <!-- End Piwik Code -->
 ++++
-
