@@ -12,6 +12,8 @@
 ** https://wols.github.io/time/2016/05/13/Icinga2-Vom-Classic-U-I-zum-Icinga-Web2.html[Icinga2 - Vom ClassicUI zum Icinga Web2]
 * https://wols.github.io/time/2016/04/01/Links.html[Links]
 
+// Don't remove next (last) lines!
+
 ++++
 <!-- Piwik -->
 <script type="text/javascript">
