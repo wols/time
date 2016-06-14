@@ -155,3 +155,25 @@ Durch die vorherige Mehfachauswahl sind mit einem Schlag alle vier Service-Probl
 image::2016/05/13/16-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Services - Kommentare, link="https://wols.github.io/time/images/2016/05/13/16-icinga2.png"]
 
 ==== wird fortgesetzt...
+
+
+
+++++
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDomains", ["*.wols.github.io/time"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//wolsorg.pro-ssl.de/analytics/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 2]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//wolsorg.pro-ssl.de/analytics/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+++++
+
