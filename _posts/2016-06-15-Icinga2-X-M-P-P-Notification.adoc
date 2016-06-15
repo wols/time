@@ -12,8 +12,8 @@ Konfiguration noch in Arbeit!
 
 == Quellen
 
-* https://blog.netways.de/2014/07/17/jabber-notifications-mit-icinga-2/[, window="_blank"]
-* http://linux-aha.de/wordpress/2010/07/16/ein-bisschen-grun-ein-bisschen-gelb-und-moglichst-wenig-rot-nagios-per-jabber-live-und-in-farbe/[, window="_blank"]
+* https://blog.netways.de/2014/07/17/jabber-notifications-mit-icinga-2/[Jabber-Notifications mit Icinga 2, window="_blank"]
+* http://linux-aha.de/wordpress/2010/07/16/ein-bisschen-grun-ein-bisschen-gelb-und-moglichst-wenig-rot-nagios-per-jabber-live-und-in-farbe/[Ein bisschen grün, ein bisschen gelb und möglichst wenig rot – Nagios per Jabber live und in Farbe, window="_blank"]
 
 // Don't remove next (last) lines!
 
