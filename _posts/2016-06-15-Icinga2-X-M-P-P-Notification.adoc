@@ -1,0 +1,14 @@
+= Icinga2 - XMPP Notification
+:published_at: 2016-06-15
+:hp-tags: monitoring, icinga2, icingaweb2, icingaweb2-director, jabber, xmpp
+:linkattrs:
+:toc: macro
+:toc-title: Inhalt
+
+[NOTE]
+====
+Konfiguration noch in Arbeit!
+====
+
+== Quellen
+
