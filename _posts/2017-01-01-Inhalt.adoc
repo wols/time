@@ -2,14 +2,15 @@
 :published_at: 2017-01-01
 :hp-tags:
 :linkattrs:
-:toc: macro
-:toc-title: Inhalt
+:toc:          macro
+:toc-title:    Inhalt
 
 * https://wols.github.io/time/2016/03/30/N-T-P.html[NTP]
 ** https://wols.github.io/time/2016/03/30/N-T-P-Pool-Project.html[NTP Pool Project]
 ** https://wols.github.io/time/2016/03/30/N-T-P-Status.html[NTP - Status]
 * Icinga2
-** https://wols.github.io/time/2016/05/13/Icinga2-Vom-Classic-U-I-zum-Icinga-Web2.html[Icinga2 - Vom ClassicUI zum Icinga Web2]
+** https://wols.github.io/time/2016/05/13/Icinga2-Vom-Classic-U-I-zum-Icinga-Web2.html[Vom ClassicUI zum Icinga Web2]
+** https://wols.github.io/time/2016/05/13/Icinga2-X-M-P-P-Notification.html[XMPP Notification]
 * https://wols.github.io/time/2016/04/01/Links.html[Links]
 
 // Don't remove next (last) lines!
