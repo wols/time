@@ -2,8 +2,8 @@
 :published_at: 2016-04-01
 :hp-tags:
 :linkattrs:
-:toc: macro
-:toc-title: Inhalt
+:toc:          macro
+:toc-title:    Inhalt
 
 toc::[]
 
@@ -19,7 +19,7 @@ toc::[]
 ** USA
 *** http://www.nist.gov/pml/div688/grp50/[NIST, window="_blank"]
 *** http://tycho.usno.navy.mil/[USNO, window="_blank"]
-* http://www.stjarnhimlen.se/comp/time.html[Time scales by Paul Schlyter, Stockholm, Sweden, window="_blank"]
+* http://www.stjarnhimlen.se/comp/time.html["Time scales by Paul Schlyter, Stockholm, Sweden", window="_blank"]
 * ...
 
 == NTP
