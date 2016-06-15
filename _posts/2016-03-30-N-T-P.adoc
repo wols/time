@@ -1,9 +1,9 @@
 = NTP
 :published_at: 2016-03-30
-:hp-tags: ntp, networktime, utc
+:hp-tags:      ntp, networktime, utc
 :linkattrs:
-:toc: macro
-:toc-title: Inhalt
+:toc:          macro
+:toc-title:    Inhalt
 
 toc::[]
 
