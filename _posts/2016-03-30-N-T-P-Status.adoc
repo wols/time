@@ -1,9 +1,9 @@
 = NTP - Status
 :published_at: 2016-03-30
-:hp-tags: ntp, ntp-debug, networktime
+:hp-tags:      ntp, ntp-debug, networktime
 :linkattrs:
-:toc: macro
-:toc-title: Inhalt
+:toc:          macro
+:toc-title:    Inhalt
 
 toc::[]
 
