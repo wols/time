@@ -22,7 +22,7 @@ Es gibt Szenarien in denen die *Nichterreichbarkeit aber durchaus normal* ist, u
 * Netzwerk-Drucker
 ** Energiesparperioden außerhalb der Arbeitszeiten
 
-TIP: Wenn Du `event_downtime` für einen der genannten Fälle brauchen kannst, klicke auf "Star" - Danke!
+TIP: Wenn Du `event_downtime` für einen der genannten Fälle brauchen kannst, klicke auf https://github.com/wols/event_downtime["Star"] - Danke!
 
 == Host-Szenarios
 
@@ -146,9 +146,9 @@ image::/time/images/2016/07/07/13-icinga_director.png[title="Icinga Director - I
 
 ==== TODO
 
-image::/time/images/2016/07/07/14-icinga_director.png[title="Overview - Host 'raspi'"]
+image::/time/images/2016/07/07/14-icinga_overview.png[title="Overview - Host 'raspi'"]
 
-image::/time/images/2016/07/07/15-icinga_director.png[title="Overview - Tactical Overview | Hosts 'raspi'"]
+image::/time/images/2016/07/07/15-icinga_overview.png[title="Overview - Tactical Overview | Hosts 'raspi'"]
 
 ==== Wird fortgesetzt...
 
