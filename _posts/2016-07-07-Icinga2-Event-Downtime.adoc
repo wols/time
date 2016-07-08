@@ -70,6 +70,8 @@ Quelle: http://docs.icinga.org/icinga2/latest/doc/module/icinga2/chapter/icinga2
 
 == Installation
 
+Download: +++<iframe src="https://ghbtns.com/github-btn.html?user=wols&repo=event_downtime&type=watch&v=2" frameborder="0" scrolling="0" width="64px" height="20px"></iframe>+++
+
 [source, bash]
 ----
 cp event_downtime /path/to/PluginDir/
@@ -155,6 +157,10 @@ image::/time/images/2016/07/07/15-icinga_overview.png[title="Overview - Tactical
 == Links
 
 * https://monitoring-portal.org/index.php?thread/33218-temporär-am-netz-befindlichen-host-mit-nachgelagerten-checks-überwachen/[Monitoring-Portal: temporär am Netz befindlichen Host mit nachgelagerten checks überwachen, window="_blank"]
+
+== Dank
+
+* https://github.com/mdo/github-buttons[GitHub Buttons, window="_blank"]
 
 [appendix]
 == event_downtime-host.conf
