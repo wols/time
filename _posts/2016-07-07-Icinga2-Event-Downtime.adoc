@@ -1,6 +1,6 @@
 = Icinga2 - Event Downtime
 :published_at: 2016-07-07
-:hp-tags:      monitoring, icinga, icinga2, icingaweb director, icingaweb2
+:hp-tags:      monitoring, icinga2, icingaweb2, icingaweb2-director
 :linkattrs:
 :toc:          macro
 :toc-title:    Inhalt
