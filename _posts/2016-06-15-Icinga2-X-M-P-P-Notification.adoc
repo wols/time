@@ -5,20 +5,9 @@
 :toc:          macro
 :toc-title:    Inhalt
 
-[NOTE]
-====
-Konfiguration noch in Arbeit!
-====
+notification_xmpp - XMPP Notification Plugin Command for use (not only) with Icinga2
 
-== notify_xmpp
-
-[source, bash]
-----
-#!/bin/bash
-#
-# notify_xmpp
-
-----
+toc::[]
 
 == Quellen
 
