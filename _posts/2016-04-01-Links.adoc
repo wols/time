@@ -37,6 +37,7 @@ toc::[]
 
 * Icinga2
 ** https://www.spiller.me/tag/icinga2/[/SYS/ADM/AMA Alle Artikel mit dem Schlagwort: icinga2, window="_blank"]
+** https://www.linuxfrickeln.de/visualisierung-von-performancedaten-in-der-icingaweb2-gui/[Anzeige von Performancedaten in Icingaweb2-GUI mit Graphite/Icinga2, window="_blank"]
 
 // Don't remove next (last) lines!
 
