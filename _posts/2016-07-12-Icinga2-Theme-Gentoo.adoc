@@ -1,0 +1,62 @@
+= Icinga2 - Theme Gentoo
+:published_at: 2016-07-12
+:hp-tags:      gentoo, monitoring, icinga2, icingaweb2
+:linkattrs:
+:toc:          macro
+:toc-title:    Inhalt
+
+imsge::/time/images/2016/07/12/01-icinga_user_preferences.png[title="Icinga - User - Preferences"]
+
+[source]
+----
+|
++--icingaweb2
+   +--public
+      +--css
+      |  +--themes
+      |     +--gentoo.less
+      +--img
+         +--gentoo
+            +--site-logo.png
+----
+
+[source]
+.gentoo.less
+----
+/*
+  (C) 2016 WOLfgang Schricker <wols@wols.org>
+
+  License: GPL-2+
+
+  gentoo-site-logo.png from https://assets.gentoo.org/tyrian/site-logo.png
+  all rights reserved
+*/
+
+@icinga-blue: #463c65;
+
+#header, #login {
+    background: url('../img/gentoo/site-logo.png') right center no-repeat, linear-gradient(to right, #463c65 0%, #dddaec 100%);
+}
+
+----
+
+// Don't remove next (last) lines!
+
+++++
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDomains", ["*.wols.github.io/time"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//wolsorg.pro-ssl.de/analytics/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 2]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//wolsorg.pro-ssl.de/analytics/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+++++
