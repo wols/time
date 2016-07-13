@@ -1,1 +1,10 @@
-{"meta":{"username":"wols","repositoryName":"time","branch":"gh-pages"},"site":{"title":"time@wols.org","description":"My personal site about time","logo":"","cover":"/time/images/table.jpg","postsPerPage":"3","url":"https://wols.github.io/time"},"socialnetwork":{"email":"time@wols.org","github":"https://github.com/wols/"},"theme":{"name":"ghostium","url":"//wols.github.io/time/themes/ghostium"}}
+{
+  "meta": {
+    "username": "put your username here",
+    "repositoryName": "put your repository name here",
+    "branch": "master"
+  },
+  "theme": {
+    "name": "Casper"
+  }
+}
