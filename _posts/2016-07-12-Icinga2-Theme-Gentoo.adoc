@@ -20,7 +20,7 @@ image::/time/images/2016/07/12/01-icinga_user_preferences.png[title="Icinga - Us
             +--site-logo.png
 ----
 
-[source]
+[source,css]
 .gentoo.less
 ----
 /*
