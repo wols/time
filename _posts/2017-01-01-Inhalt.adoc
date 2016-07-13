@@ -12,6 +12,7 @@
 ** https://wols.github.io/time/2016/05/13/Icinga2-Vom-Classic-U-I-zum-Icinga-Web2.html[Vom ClassicUI zum Icinga Web2]
 ** https://wols.github.io/time/2016/07/07/Icinga2-Event-Downtime.html[Event Downtime]
 ** https://wols.github.io/time/2016/06/15/Icinga2-X-M-P-P-Notification.html[XMPP Notification]
+** https://wols.github.io/time/2016/07/12/Icinga2-Theme-Gentoo.html[Theme Gentoo]
 * https://wols.github.io/time/2016/04/01/Links.html[Links]
 
 // Don't remove next (last) lines!
