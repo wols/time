@@ -20,7 +20,8 @@ toc::[]
 *** http://www.nist.gov/pml/div688/grp50/[NIST, window="_blank"]
 *** http://tycho.usno.navy.mil/[USNO, window="_blank"]
 * http://www.stjarnhimlen.se/comp/time.html["Time scales by Paul Schlyter, Stockholm, Sweden", window="_blank"]
-* ...
+* Zeitskalen und Schaltsekunden
+** http://www.leapsecond.com/java/gpsclock.htm[Link-Sammlung LeapSecond.com, window="_blank"]
 
 == NTP
 
