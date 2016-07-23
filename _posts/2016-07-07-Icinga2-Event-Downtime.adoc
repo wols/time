@@ -22,7 +22,10 @@ Es gibt Szenarien in denen die *Nichterreichbarkeit aber durchaus normal* ist, u
 * Netzwerk-Drucker
 ** Energiesparperioden außerhalb der Arbeitszeiten
 
-TIP: Wenn Du `event_downtime` für einen der genannten Fälle brauchen kannst, klicke auf +++<iframe src="https://ghbtns.com/github-btn.html?user=wols&repo=event_downtime&type=star" frameborder="0" scrolling="0" width="52px" height="20px"></iframe>+++ - Danke!
+[TIP]
+====
+Wenn Du `event_downtime` für einen der genannten Fälle brauchen kannst, klicke auf +++<iframe src="https://ghbtns.com/github-btn.html?user=wols&repo=event_downtime&type=star" frameborder="0" scrolling="0" width="52px" height="20px"></iframe>+++ - Danke!
+====
 
 == Host-Szenarios
 
