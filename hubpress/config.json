@@ -9,7 +9,7 @@
     "description": "My personal site about time",
     "logo": "",
     "cover": "/time/images/table.jpg",
-    "postsPerPage": "3"
+    "postsPerPage": "5"
   },
   "socialnetwork": {
     "email": "time@wols.org",
