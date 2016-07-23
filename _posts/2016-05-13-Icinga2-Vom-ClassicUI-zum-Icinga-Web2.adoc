@@ -135,6 +135,7 @@ image::/time/images/2016/05/13/14-icinga2_prev.png[Icinga2 Core mit Icinga Web2 
 
 Zur Erinnerung: Unter <<Dashboard 'Muted', 'Muted'>> findet man sie natürlich noch.
 
+[NOTE]
 ====
 Darstellung von Service-Problemen: link:/time/2016/05/14/Icinga2-Vom-ClassicUI-zum-Icinga-Web2.html[im zweiten Beitrag...]
 ====
