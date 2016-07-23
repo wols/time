@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[time@wols.org]]></title><description><![CDATA[My personal site about time]]></description><link>https://wols.github.io/time</link><image><url>/time/images/table.jpg</url><title>time@wols.org</title><link>https://wols.github.io/time</link></image><generator>RSS for Node</generator><lastBuildDate>Sat, 23 Jul 2016 15:39:03 GMT</lastBuildDate><atom:link href="https://wols.github.io/time/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Inhalt]]></title><description><![CDATA[<div class="ulist">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[time@wols.org]]></title><description><![CDATA[My personal site about time]]></description><link>https://wols.github.io/time</link><image><url>/time/images/table.jpg</url><title>time@wols.org</title><link>https://wols.github.io/time</link></image><generator>RSS for Node</generator><lastBuildDate>Sat, 23 Jul 2016 15:42:25 GMT</lastBuildDate><atom:link href="https://wols.github.io/time/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Inhalt]]></title><description><![CDATA[<div class="ulist">
 <ul>
 <li>
 <p><a href="/time/2016/03/30/NTP.html">NTP</a></p>
@@ -697,13 +697,13 @@ apply Dependency "downtime-host" to Host {
 <div class="sectionbody">
 <div class="imageblock">
 <div class="content">
-<a class="image" href="https://wols.github.io/time/images/2016/05/13/01-icinga1.png"><img src="/time/images/2016/05/13/01-icinga1_prev.png" alt="Icinga2 Core mit ClassicUI"></a>
+<a class="image" href="/time/images/2016/05/13/01-icinga1.png"><img src="/time/images/2016/05/13/01-icinga1_prev.png" alt="Icinga2 Core mit ClassicUI"></a>
 </div>
 <div class="title">Figure 1. Icinga2 Core mit ClassicUI 1.13.3</div>
 </div>
 <div class="imageblock">
 <div class="content">
-<a class="image" href="https://wols.github.io/time/images/2016/05/13/01-icinga2.png"><img src="/time/images/2016/05/13/01-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2"></a>
+<a class="image" href="/time/images/2016/05/13/01-icinga2.png"><img src="/time/images/2016/05/13/01-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2"></a>
 </div>
 <div class="title">Figure 2. Icinga2 Core mit Icinga Web2 2.3.2</div>
 </div>
@@ -714,7 +714,7 @@ apply Dependency "downtime-host" to Host {
 <div class="sectionbody">
 <div class="imageblock">
 <div class="content">
-<a class="image" href="https://wols.github.io/time/images/2016/05/13/02-icinga1.png"><img src="/time/images/2016/05/13/02-icinga1_prev.png" alt="Icinga2 Core mit ClassicUI - Taktische Übersicht"></a>
+<a class="image" href="/time/images/2016/05/13/02-icinga1.png"><img src="/time/images/2016/05/13/02-icinga1_prev.png" alt="Icinga2 Core mit ClassicUI - Taktische Übersicht"></a>
 </div>
 <div class="title">Figure 3. Icinga2 Core mit ClassicUI - Taktische Übersicht</div>
 </div>
@@ -723,7 +723,7 @@ apply Dependency "downtime-host" to Host {
 </div>
 <div class="imageblock">
 <div class="content">
-<a class="image" href="https://wols.github.io/time/images/2016/05/13/02-icinga2.png"><img src="/time/images/2016/05/13/02-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Taktische Übersicht"></a>
+<a class="image" href="/time/images/2016/05/13/02-icinga2.png"><img src="/time/images/2016/05/13/02-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Taktische Übersicht"></a>
 </div>
 <div class="title">Figure 4. Icinga2 Core mit Icinga Web2 - Taktische Übersicht</div>
 </div>
@@ -734,7 +734,7 @@ apply Dependency "downtime-host" to Host {
 <div class="sectionbody">
 <div class="imageblock">
 <div class="content">
-<a class="image" href="https://wols.github.io/time/images/2016/05/13/03-icinga1.png"><img src="/time/images/2016/05/13/03-icinga1_prev.png" alt="Icinga2 Core mit ClassicUI - Startansicht"></a>
+<a class="image" href="/time/images/2016/05/13/03-icinga1.png"><img src="/time/images/2016/05/13/03-icinga1_prev.png" alt="Icinga2 Core mit ClassicUI - Startansicht"></a>
 </div>
 <div class="title">Figure 5. Icinga2 Core mit ClassicUI - Startansicht mit zwei aktuellen Host-Problemen</div>
 </div>
@@ -743,7 +743,7 @@ apply Dependency "downtime-host" to Host {
 </div>
 <div class="imageblock">
 <div class="content">
-<a class="image" href="https://wols.github.io/time/images/2016/05/13/03-icinga2.png"><img src="/time/images/2016/05/13/03-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Dashboard"></a>
+<a class="image" href="/time/images/2016/05/13/03-icinga2.png"><img src="/time/images/2016/05/13/03-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Dashboard"></a>
 </div>
 <div class="title">Figure 6. Icinga2 Core mit Icinga Web2 - Dashboard 'Aktuelle Probleme'</div>
 </div>
@@ -757,7 +757,7 @@ apply Dependency "downtime-host" to Host {
 </div>
 <div class="imageblock">
 <div class="content">
-<a class="image" href="https://wols.github.io/time/images/2016/05/13/04-icinga2.png"><img src="/time/images/2016/05/13/04-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Host-Problem via IcingaWeb2 bestätigt"></a>
+<a class="image" href="/time/images/2016/05/13/04-icinga2.png"><img src="/time/images/2016/05/13/04-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Host-Problem via IcingaWeb2 bestätigt"></a>
 </div>
 <div class="title">Figure 7. Icinga2 Core mit Icinga Web2 - Erstes Host-Problem via IcingaWeb2 bestätigt</div>
 </div>
@@ -771,13 +771,13 @@ apply Dependency "downtime-host" to Host {
 </div>
 <div class="imageblock">
 <div class="content">
-<a class="image" href="https://wols.github.io/time/images/2016/05/13/05-icinga1.png"><img src="/time/images/2016/05/13/05-icinga1_prev.png" alt="Icinga2 Core mit ClassicUI - Dashboard"></a>
+<a class="image" href="/time/images/2016/05/13/05-icinga1.png"><img src="/time/images/2016/05/13/05-icinga1_prev.png" alt="Icinga2 Core mit ClassicUI - Dashboard"></a>
 </div>
 <div class="title">Figure 8. Icinga2 Core mit ClassicUI - Erstes bestätigtes Host-Problem ausgeblendet</div>
 </div>
 <div class="imageblock">
 <div class="content">
-<a class="image" href="https://wols.github.io/time/images/2016/05/13/05-icinga2.png"><img src="/time/images/2016/05/13/05-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Dashboard"></a>
+<a class="image" href="/time/images/2016/05/13/05-icinga2.png"><img src="/time/images/2016/05/13/05-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Dashboard"></a>
 </div>
 <div class="title">Figure 9. Icinga2 Core mit Icinga Web2 - Dashboard 'Aktuelle Probleme' mit unbestätigtem und bestätigtem Host-Problem</div>
 </div>
@@ -788,13 +788,13 @@ apply Dependency "downtime-host" to Host {
 <div class="sectionbody">
 <div class="imageblock">
 <div class="content">
-<a class="image" href="https://wols.github.io/time/images/2016/05/13/06-icinga1.png"><img src="/time/images/2016/05/13/06-icinga1_prev.png" alt="Icinga2 Core mit ClassicUI - Host-Probleme"></a>
+<a class="image" href="/time/images/2016/05/13/06-icinga1.png"><img src="/time/images/2016/05/13/06-icinga1_prev.png" alt="Icinga2 Core mit ClassicUI - Host-Probleme"></a>
 </div>
 <div class="title">Figure 10. Icinga2 Core mit ClassicUI - Host-Probleme</div>
 </div>
 <div class="imageblock">
 <div class="content">
-<a class="image" href="https://wols.github.io/time/images/2016/05/13/06-icinga2.png"><img src="/time/images/2016/05/13/06-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Host-Probleme"></a>
+<a class="image" href="/time/images/2016/05/13/06-icinga2.png"><img src="/time/images/2016/05/13/06-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Host-Probleme"></a>
 </div>
 <div class="title">Figure 11. Icinga2 Core mit Icinga Web2 - Host Probleme</div>
 </div>
@@ -808,7 +808,7 @@ apply Dependency "downtime-host" to Host {
 </div>
 <div class="imageblock">
 <div class="content">
-<a class="image" href="https://wols.github.io/time/images/2016/05/13/07-icinga1.png"><img src="/time/images/2016/05/13/07-icinga1_prev.png" alt="Icinga2 Core mit ClassicUI - Taktische Übersicht"></a>
+<a class="image" href="/time/images/2016/05/13/07-icinga1.png"><img src="/time/images/2016/05/13/07-icinga1_prev.png" alt="Icinga2 Core mit ClassicUI - Taktische Übersicht"></a>
 </div>
 <div class="title">Figure 12. Icinga2 Core mit ClassicUI - Taktische Übersicht</div>
 </div>
@@ -817,7 +817,7 @@ apply Dependency "downtime-host" to Host {
 </div>
 <div class="imageblock">
 <div class="content">
-<a class="image" href="https://wols.github.io/time/images/2016/05/13/07-icinga2.png"><img src="/time/images/2016/05/13/07-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Taktische Übersicht"></a>
+<a class="image" href="/time/images/2016/05/13/07-icinga2.png"><img src="/time/images/2016/05/13/07-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Taktische Übersicht"></a>
 </div>
 <div class="title">Figure 13. Icinga2 Core mit Icinga Web2 - Taktisch Übersicht</div>
 </div>
@@ -828,7 +828,7 @@ apply Dependency "downtime-host" to Host {
 <div class="sectionbody">
 <div class="imageblock">
 <div class="content">
-<a class="image" href="https://wols.github.io/time/images/2016/05/13/08-icinga2.png"><img src="/time/images/2016/05/13/08-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Zweites Host-Problem via IcingaWeb2 bestätigt"></a>
+<a class="image" href="/time/images/2016/05/13/08-icinga2.png"><img src="/time/images/2016/05/13/08-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Zweites Host-Problem via IcingaWeb2 bestätigt"></a>
 </div>
 <div class="title">Figure 14. Icinga2 Core mit Icinga Web2 - Zweites Host-Problem via IcingaWeb2 bestätigt</div>
 </div>
@@ -842,7 +842,7 @@ apply Dependency "downtime-host" to Host {
 </div>
 <div class="imageblock">
 <div class="content">
-<a class="image" href="https://wols.github.io/time/images/2016/05/13/09-icinga1.png"><img src="/time/images/2016/05/13/09-icinga1_prev.png" alt="Icinga2 Core mit ClassicUI - Host-Probleme"></a>
+<a class="image" href="/time/images/2016/05/13/09-icinga1.png"><img src="/time/images/2016/05/13/09-icinga1_prev.png" alt="Icinga2 Core mit ClassicUI - Host-Probleme"></a>
 </div>
 <div class="title">Figure 15. Icinga2 Core mit ClassicUI - Host-Probleme</div>
 </div>
@@ -851,7 +851,7 @@ apply Dependency "downtime-host" to Host {
 </div>
 <div class="imageblock">
 <div class="content">
-<a class="image" href="https://wols.github.io/time/images/2016/05/13/09-icinga2.png"><img src="/time/images/2016/05/13/09-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Host-Probleme"></a>
+<a class="image" href="/time/images/2016/05/13/09-icinga2.png"><img src="/time/images/2016/05/13/09-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Host-Probleme"></a>
 </div>
 <div class="title">Figure 16. Icinga2 Core mit Icinga Web2 - Host-Probleme</div>
 </div>
@@ -865,7 +865,7 @@ apply Dependency "downtime-host" to Host {
 </div>
 <div class="imageblock">
 <div class="content">
-<a class="image" href="https://wols.github.io/time/images/2016/05/13/10-icinga2.png"><img src="/time/images/2016/05/13/10-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Dashboard 'Muted'"></a>
+<a class="image" href="/time/images/2016/05/13/10-icinga2.png"><img src="/time/images/2016/05/13/10-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Dashboard 'Muted'"></a>
 </div>
 <div class="title">Figure 17. Icinga2 Core mit Icinga Web2 - Dashboard 'Muted'</div>
 </div>
@@ -879,7 +879,7 @@ apply Dependency "downtime-host" to Host {
 </div>
 <div class="imageblock">
 <div class="content">
-<a class="image" href="https://wols.github.io/time/images/2016/05/13/11-icinga2.png"><img src="/time/images/2016/05/13/11-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Dashboard-Einstellungen"></a>
+<a class="image" href="/time/images/2016/05/13/11-icinga2.png"><img src="/time/images/2016/05/13/11-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Dashboard-Einstellungen"></a>
 </div>
 <div class="title">Figure 18. Icinga2 Core mit Icinga Web2 - Dashboard-Einstellungen</div>
 </div>
@@ -891,7 +891,7 @@ apply Dependency "downtime-host" to Host {
 </div>
 <div class="imageblock">
 <div class="content">
-<a class="image" href="https://wols.github.io/time/images/2016/05/13/12-icinga2.png"><img src="/time/images/2016/05/13/12-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Dashlet bearbeiten"></a>
+<a class="image" href="o/time/images/2016/05/13/12-icinga2.png"><img src="/time/images/2016/05/13/12-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Dashlet bearbeiten"></a>
 </div>
 <div class="title">Figure 19. Icinga2 Core mit Icinga Web2 - Dashlet bearbeiten</div>
 </div>
@@ -903,7 +903,7 @@ apply Dependency "downtime-host" to Host {
 </div>
 <div class="imageblock">
 <div class="content">
-<a class="image" href="https://wols.github.io/time/images/2016/05/13/13-icinga2.png"><img src="/time/images/2016/05/13/13-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Dashboard-Einstellungen"></a>
+<a class="image" href="/time/images/2016/05/13/13-icinga2.png"><img src="/time/images/2016/05/13/13-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Dashboard-Einstellungen"></a>
 </div>
 <div class="title">Figure 20. Icinga2 Core mit Icinga Web2 - Dashboard-Einstellungen</div>
 </div>
@@ -917,7 +917,7 @@ apply Dependency "downtime-host" to Host {
 </div>
 <div class="imageblock">
 <div class="content">
-<a class="image" href="https://wols.github.io/time/images/2016/05/13/14-icinga2.png"><img src="/time/images/2016/05/13/14-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Dashboard 'Aktuelle Probleme'"></a>
+<a class="image" href="/time/images/2016/05/13/14-icinga2.png"><img src="/time/images/2016/05/13/14-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Dashboard 'Aktuelle Probleme'"></a>
 </div>
 <div class="title">Figure 21. Icinga2 Core mit Icinga Web2 - Dashboard 'Aktuelle Probleme'</div>
 </div>
@@ -955,7 +955,7 @@ apply Dependency "downtime-host" to Host {
 <noscript><p><img src="//wolsorg.pro-ssl.de/analytics/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
 <!-- End Piwik Code -->
 </div>
-</div>]]></description><link>https://wols.github.io/time/2016/05/13/Icinga2-Vom-ClassicUI-zum-Icinga-Web2.html</link><guid isPermaLink="true">https://wols.github.io/time/2016/05/13/Icinga2-Vom-ClassicUI-zum-Icinga-Web2.html</guid><category><![CDATA[classicui]]></category><category><![CDATA[ monitoring]]></category><category><![CDATA[ icinga]]></category><category><![CDATA[ icinga2]]></category><category><![CDATA[ icingaweb2]]></category><pubDate>Fri, 13 May 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Links]]></title><description><![CDATA[<div id="preamble">
+</div>]]></description><link>https://wols.github.io/time/2016/05/13/Icinga2-Vom-ClassicUI-zum-Icinga-Web2.html</link><guid isPermaLink="true">https://wols.github.io/time/2016/05/13/Icinga2-Vom-ClassicUI-zum-Icinga-Web2.html</guid><category><![CDATA[classicui]]></category><category><![CDATA[ icinga]]></category><category><![CDATA[ icinga2]]></category><category><![CDATA[ icingaweb2]]></category><category><![CDATA[ monitoring]]></category><pubDate>Fri, 13 May 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Links]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div id="toc" class="toc">
 <div id="toctitle" class="title">Inhalt</div>
