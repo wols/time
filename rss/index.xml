@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[time@wols.org]]></title><description><![CDATA[My personal site about time]]></description><link>https://wols.github.io/time</link><image><url>/time/images/table.jpg</url><title>time@wols.org</title><link>https://wols.github.io/time</link></image><generator>RSS for Node</generator><lastBuildDate>Sat, 23 Jul 2016 15:30:35 GMT</lastBuildDate><atom:link href="https://wols.github.io/time/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Inhalt]]></title><description><![CDATA[<div class="ulist">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[time@wols.org]]></title><description><![CDATA[My personal site about time]]></description><link>https://wols.github.io/time</link><image><url>/time/images/table.jpg</url><title>time@wols.org</title><link>https://wols.github.io/time</link></image><generator>RSS for Node</generator><lastBuildDate>Sat, 23 Jul 2016 15:32:06 GMT</lastBuildDate><atom:link href="https://wols.github.io/time/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Inhalt]]></title><description><![CDATA[<div class="ulist">
 <ul>
 <li>
 <p><a href="/time/2016/03/30/NTP.html">NTP</a></p>
@@ -190,7 +190,9 @@ Es gibt Szenarien in denen die <strong>Nichterreichbarkeit aber durchaus normal<
 <i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
-Wenn Du <code>event_downtime</code> für einen der genannten Fälle brauchen kannst, klicke auf <iframe src="https://ghbtns.com/github-btn.html?user=wols&repo=event_downtime&type=star" frameborder="0" scrolling="0" width="52px" height="20px"></iframe> - Danke!
+<div class="paragraph">
+<p>Wenn Du <code>event_downtime</code> für einen der genannten Fälle brauchen kannst, klicke auf <iframe src="https://ghbtns.com/github-btn.html?user=wols&repo=event_downtime&type=star" frameborder="0" scrolling="0" width="52px" height="20px"></iframe> - Danke!</p>
+</div>
 </td>
 </tr>
 </table>
