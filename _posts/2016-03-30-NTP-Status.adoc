@@ -1,6 +1,6 @@
 = NTP - Status
 :published_at: 2016-03-30
-:hp-tags:      ntp, ntp-debug, networktime
+:hp-tags:      networktime, ntp, ntp-debug
 :linkattrs:
 :toc:          macro
 :toc-title:    Inhalt
