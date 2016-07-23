@@ -1,6 +1,6 @@
 = Icinga2 - XMPP Notification
 :published_at: 2016-06-15
-:hp-tags:      monitoring, icinga2, icingaweb2, icingaweb2-director, jabber, xmpp
+:hp-tags:      icinga2, icingaweb2, icingaweb2-director, jabber, monitoring, xmpp
 :linkattrs:
 :toc:          macro
 :toc-title:    Inhalt
