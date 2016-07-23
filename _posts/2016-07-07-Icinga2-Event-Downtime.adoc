@@ -11,7 +11,7 @@ toc::[]
 
 == Anwendungsfälle
 
-https://www.icinga.org/[Icinga, window="_blank"] und andere Monitoring-Systeme werden überwiegend zur Überwachung dauerhaft erreichbarer Komponenten eingesetzt.
+link:https://www.icinga.org/[Icinga, window="_blank"] und andere Monitoring-Systeme werden überwiegend zur Überwachung dauerhaft erreichbarer Komponenten eingesetzt.
 Es gibt Szenarien in denen die *Nichterreichbarkeit aber durchaus normal* ist, und deshalb keine Alarmierung oder Benachrichtigung erfolgen soll.
 
 * Notebooks
@@ -26,7 +26,7 @@ TIP: Wenn Du `event_downtime` für einen der genannten Fälle brauchen kannst, k
 
 == Host-Szenarios
 
-Mit `event_downtime` lässt sich ein http://docs.icinga.org/icinga2/latest/doc/module/icinga2/chapter/monitoring-basics#event-command-restart-service-daemon[Event Handler, window="_blank"] `event_downtime-host` für folgendes Szenario realisieren:
+Mit `event_downtime` lässt sich ein link:http://docs.icinga.org/icinga2/latest/doc/module/icinga2/chapter/monitoring-basics#event-command-restart-service-daemon[Event Handler, window="_blank"] `event_downtime-host` für folgendes Szenario realisieren:
 
 . Host `raspi` ist `UP` und wird mit allen seinen Services überwacht.
 . Host `raspi` geht `DOWN`.
@@ -66,7 +66,7 @@ COMMAND[UP]="DEL_DOWNTIME_BY_HOST_NAME;<host_name>"
 COMMAND[DOWN]="SCHEDULE_HOST_DOWNTIME;<host_name>;<start_time>;<end_time>;<fixed>;<trigger_id>;<duration>;<author>;<comment>"
 ----
 
-Quelle: http://docs.icinga.org/icinga2/latest/doc/module/icinga2/chapter/icinga2-features#external-commands[]
+Quelle: link:http://docs.icinga.org/icinga2/latest/doc/module/icinga2/chapter/icinga2-features#external-commands[]
 
 == Installation
 
@@ -156,11 +156,11 @@ image::/time/images/2016/07/07/15-icinga_overview.png[title="Overview - Tactical
 
 == Links
 
-* https://monitoring-portal.org/index.php?thread/33218-temporär-am-netz-befindlichen-host-mit-nachgelagerten-checks-überwachen/[Monitoring-Portal: temporär am Netz befindlichen Host mit nachgelagerten checks überwachen, window="_blank"]
+* link:https://monitoring-portal.org/index.php?thread/33218-temporär-am-netz-befindlichen-host-mit-nachgelagerten-checks-überwachen/[Monitoring-Portal: temporär am Netz befindlichen Host mit nachgelagerten checks überwachen, window="_blank"]
 
 == Dank
 
-* https://github.com/mdo/github-buttons[GitHub Buttons, window="_blank"]
+* link:https://github.com/mdo/github-buttons[GitHub Buttons, window="_blank"]
 
 [appendix]
 == event_downtime-host.conf
