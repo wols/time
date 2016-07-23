@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[time@wols.org]]></title><description><![CDATA[My personal site about time]]></description><link>https://wols.github.io/time</link><image><url>/time/images/table.jpg</url><title>time@wols.org</title><link>https://wols.github.io/time</link></image><generator>RSS for Node</generator><lastBuildDate>Sat, 23 Jul 2016 19:20:47 GMT</lastBuildDate><atom:link href="https://wols.github.io/time/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Inhalt]]></title><description><![CDATA[<div class="ulist">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[time@wols.org]]></title><description><![CDATA[My personal site about time]]></description><link>https://wols.github.io/time</link><image><url>/time/images/table.jpg</url><title>time@wols.org</title><link>https://wols.github.io/time</link></image><generator>RSS for Node</generator><lastBuildDate>Sat, 23 Jul 2016 19:24:22 GMT</lastBuildDate><atom:link href="https://wols.github.io/time/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Inhalt]]></title><description><![CDATA[<div class="ulist">
 <ul>
 <li>
 <p><a href="/time/2016/03/30/NTP.html">NTP</a></p>
@@ -59,6 +59,7 @@
 <div class="content">
 <a class="image" href="/time/images/2016/07/12/01-icinga_user_preferences.png"><img src="/time/images/2016/07/12/01-icinga_user_preferences.png" alt="Icinga - User - Preferences"></a>
 </div>
+<div class="title">Figure 1. Icinga - User - Preferences</div>
 </div>
 <div class="listingblock">
 <div class="content">
