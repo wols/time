@@ -1,0 +1,1306 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[time@wols.org]]></title><description><![CDATA[My personal site about time]]></description><link>https://wols.github.io/time</link><image><url>/time/images/table.jpg</url><title>time@wols.org</title><link>https://wols.github.io/time</link></image><generator>RSS for Node</generator><lastBuildDate>Sat, 23 Jul 2016 15:21:15 GMT</lastBuildDate><atom:link href="https://wols.github.io/time/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Inhalt]]></title><description><![CDATA[<div class="ulist">
+<ul>
+<li>
+<p><a href="/time/2016/03/30/NTP.html">NTP</a></p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="/time/2016/03/30/NTP-Pool-Project.html">NTP Pool Project</a></p>
+</li>
+<li>
+<p><a href="/time/2016/03/30/NTP-Status.html">NTP - Status</a></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Icinga2</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="/time/2016/05/13/Icinga2-Vom-ClassicUI-zum-Icinga-Web2.html">Vom ClassicUI zum Icinga Web2, Beitrag 1</a></p>
+</li>
+<li>
+<p><a href="/time/2016/05/14/Icinga2-Vom-ClassicUI-zum-Icinga-Web2.html">Vom ClassicUI zum Icinga Web2, Beitrag 2</a></p>
+</li>
+<li>
+<p><a href="/time/2016/07/07/Icinga2-Event-Downtime.html">Event Downtime</a></p>
+</li>
+<li>
+<p><a href="/time/2016/06/15/Icinga2-XMPP-Notification.html">XMPP Notification</a></p>
+</li>
+<li>
+<p><a href="/time/2016/07/12/Icinga2-Theme-Gentoo.html">Theme Gentoo</a></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><a href="/time/2016/04/01/Links.html">Links</a></p>
+</li>
+</ul>
+</div>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDomains", ["*.wols.github.io/time"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//wolsorg.pro-ssl.de/analytics/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 2]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//wolsorg.pro-ssl.de/analytics/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->]]></description><link>https://wols.github.io/time/2017/01/01/Inhalt.html</link><guid isPermaLink="true">https://wols.github.io/time/2017/01/01/Inhalt.html</guid><pubDate>Sun, 01 Jan 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[New Post]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_no_content_here">No content here</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>only a test&#8230;&#8203;</p>
+</div>
+</div>
+</div>]]></description><link>https://wols.github.io/time/2016/07/23/New-Post.html</link><guid isPermaLink="true">https://wols.github.io/time/2016/07/23/New-Post.html</guid><pubDate>Sat, 23 Jul 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Icinga2 - Theme Gentoo]]></title><description><![CDATA[<div class="imageblock">
+<div class="content">
+<img src="/time/images/2016/07/12/01-icinga_user_preferences.png" alt="01 icinga user preferences.png">
+</div>
+<div class="title">Figure 1. Icinga - User - Preferences</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>|
++--icingaweb2
+   +--public
+      +--css
+      |  +--themes
+      |     +--gentoo.less
+      +--img
+         +--gentoo
+            +--site-logo.png</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">gentoo.less</div>
+<div class="content">
+<pre class="highlight"><code class="language-css" data-lang="css">/*
+  (C) 2016 WOLfgang Schricker &lt;wols@wols.org&gt;
+
+  License: GPL-2+
+
+  gentoo-site-logo.png from https://assets.gentoo.org/tyrian/site-logo.png
+  all rights reserved
+*/
+
+@icinga-blue: #463c65;
+
+#header, #login {
+    background: url('../img/gentoo/site-logo.png') right center no-repeat, linear-gradient(to right, #463c65 0%, #dddaec 100%);
+}</code></pre>
+</div>
+</div>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDomains", ["*.wols.github.io/time"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//wolsorg.pro-ssl.de/analytics/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 2]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//wolsorg.pro-ssl.de/analytics/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->]]></description><link>https://wols.github.io/time/2016/07/12/Icinga2-Theme-Gentoo.html</link><guid isPermaLink="true">https://wols.github.io/time/2016/07/12/Icinga2-Theme-Gentoo.html</guid><category><![CDATA[gentoo]]></category><category><![CDATA[ monitoring]]></category><category><![CDATA[ icinga2]]></category><category><![CDATA[ icingaweb2]]></category><pubDate>Tue, 12 Jul 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Icinga2 - Event Downtime]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>event_downtime - Event Plugin Command zur Benutzung mit Icinga2</p>
+</div>
+<div id="toc" class="toc">
+<div id="toctitle" class="title">Inhalt</div>
+<ul class="sectlevel1">
+<li><a href="#_anwendungsf_lle">Anwendungsfälle</a></li>
+<li><a href="#_host_szenarios">Host-Szenarios</a></li>
+<li><a href="#_installation">Installation</a></li>
+<li><a href="#_test">Test</a></li>
+<li><a href="#_konfiguration">Konfiguration</a>
+<ul class="sectlevel2">
+<li><a href="#_icingaweb_2_module_director">Icingaweb 2 Module Director</a></li>
+</ul>
+</li>
+<li><a href="#_links">Links</a></li>
+<li><a href="#_dank">Dank</a></li>
+<li><a href="#_event_downtime_host_conf">Appendix A: event_downtime-host.conf</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_anwendungsf_lle">Anwendungsfälle</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><a href="https://www.icinga.org/" target="_blank">Icinga</a> und andere Monitoring-Systeme werden überwiegend zur Überwachung dauerhaft erreichbarer Komponenten eingesetzt.
+Es gibt Szenarien in denen die <strong>Nichterreichbarkeit aber durchaus normal</strong> ist, und deshalb keine Alarmierung oder Benachrichtigung erfolgen soll:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Notebooks</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Ruhe- und Ausschalt-Perioden</p>
+</li>
+<li>
+<p>Offline-Perioden beim Ensatz an unterschiedlichen Standorten</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Virtuelle Maschinen (Xen DomU, VirtualBox)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Entwicklungs- und Test-Maschinen mit temporären Einsatz-Perioden</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Netzwerk-Drucker</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Energiesparperioden außerhalb der Arbeitszeiten</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+Wenn Du <code>event_downtime</code> für einen der genannten Fälle brauchen kannst, klicke auf <iframe src="https://ghbtns.com/github-btn.html?user=wols&repo=event_downtime&type=star" frameborder="0" scrolling="0" width="52px" height="20px"></iframe> - Danke!
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_host_szenarios">Host-Szenarios</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Mit <code>event_downtime</code> lässt sich ein <a href="http://docs.icinga.org/icinga2/latest/doc/module/icinga2/chapter/monitoring-basics#event-command-restart-service-daemon" target="_blank">Event Handler</a> <code>event_downtime-host</code> für folgendes Szenario realisieren:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Host <code>raspi</code> ist <code>UP</code> und wird mit allen seinen Services überwacht.</p>
+</li>
+<li>
+<p>Host <code>raspi</code> geht <code>DOWN</code>.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Event Handler <code>event_downtime-host</code> wird ausgelöst.</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>Kommando <code>SCHEDULE_HOST_DOWNTIME</code> wird abgesetzt.<sup class="footnote" id="_footnote_api">[<a id="_footnoteref_1" class="footnote" href="#_footnote_1" title="View footnote.">1</a>]</sup></p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Host <code>raspi</code> geht <code>UP</code>.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Event Handler <code>event_downtime-host</code> wird ausgelöst.</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>Kommando <code>DEL_DOWNTIME_BY_HOST_NAME</code> wird abgesetzt.<sup class="footnoteref">[<a class="footnote" href="#_footnote_1" title="View footnote.">1</a>]</sup></p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>weiter mit 1.</p>
+</li>
+</ol>
+</div>
+<div class="listingblock">
+<div class="title">Ablauf</div>
+<div class="content">
+<pre>      +------------------------------------------+
+      |                                          |
+      v 1                                        |
++-----+------+                                   |
+| {c}        |                                   |
+|            |    3+---------------------------+ |
+| HOST_STATE +-UP-&gt;| DEL_DOWNTIME_BY_HOST_NAME +-+
+|            |     +---------------------------+ |
+|            |                                   |
++-----+------+                                   |
+      | 2          +---------------------------+ |
+      +------DOWN-&gt;| SCHEDULE_HOST_DOWNTIME    +-+
+                   +---------------------------+</pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>COMMAND[UP]="DEL_DOWNTIME_BY_HOST_NAME;&lt;host_name&gt;"
+
+COMMAND[DOWN]="SCHEDULE_HOST_DOWNTIME;&lt;host_name&gt;;&lt;start_time&gt;;&lt;end_time&gt;;&lt;fixed&gt;;&lt;trigger_id&gt;;&lt;duration&gt;;&lt;author&gt;;&lt;comment&gt;"</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Quelle: <a href="http://docs.icinga.org/icinga2/latest/doc/module/icinga2/chapter/icinga2-features#external-commands" target="_blank">Icinga 2 Features - External Commands</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_installation">Installation</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Download: <iframe src="https://ghbtns.com/github-btn.html?user=wols&repo=event_downtime&type=watch&v=2" frameborder="0" scrolling="0" width="64px" height="20px"></iframe></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">cp event_downtime /path/to/PluginDir/
+chmod a+x /path/to/PluginDir/event_downtime</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_test">Test</h2>
+<div class="sectionbody">
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">sudo -H -u icinga /usr/lib/nagios/plugins/event_downtime raspi UP HARD 1 604800
+
+sudo -H -u icinga /usr/lib/nagios/plugins/event_downtime raspi DOWN HARD 1 604800</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code># tailf /var/log/icinga2/icinga2.log | grep -E "(DOWNTIME)"
+
+[2016-06-23 22:20:37 +0000] information/ExternalCommandListener: Executing external command: [1466684437] DEL_DOWNTIME_BY_HOST_NAME;raspi
+
+[2016-06-23 22:22:27 +0000] information/ExternalCommandListener: Executing external command: [1466684547] SCHEDULE_HOST_DOWNTIME;raspi;1466684547;1467289347;1;0;604800;event_downtime-host;'DOWN HARD 1'</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_konfiguration">Konfiguration</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_icingaweb_2_module_director">Icingaweb 2 Module Director</h3>
+<div class="sect3">
+<h4 id="_datenliste_list_downtime_duration">Datenliste 'list-downtime_duration'</h4>
+<div class="imageblock">
+<div class="content">
+<img src="/time/images/2016/07/07/01-icinga_director.png" alt="01 icinga director.png">
+</div>
+<div class="title">Figure 1. Icinga Director - Add list | Add data list entry</div>
+</div>
+<div class="sect4">
+<h5 id="_datenlisteneintr_ge">Datenlisteneinträge</h5>
+<div class="listingblock">
+<div class="content">
+<pre>   60 x 60 =     3600 = hour
+ hour x 24 =    86400 = day
+  day x  7 =   604800 = week
+ week x  4 =  2419200 = month
+month x 12 = 29030400 = year</pre>
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="/time/images/2016/07/07/02-icinga_director.png" alt="02 icinga director.png">
+</div>
+<div class="title">Figure 2. Icinga Director - Data lists | List entries</div>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_datenfeld_downtime_duration">Datenfeld 'downtime_duration'</h4>
+<div class="imageblock">
+<div class="content">
+<img src="/time/images/2016/07/07/03-icinga_director.png" alt="03 icinga director.png">
+</div>
+<div class="title">Figure 3. Icinga Director - Add field</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="/time/images/2016/07/07/04-icinga_director.png" alt="04 icinga director.png">
+</div>
+<div class="title">Figure 4. Icinga Director - Data fields</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_event_command_event_downtime">Event Command 'event_downtime'</h4>
+<div class="imageblock">
+<div class="content">
+<img src="/time/images/2016/07/07/05-icinga_director.png" alt="05 icinga director.png">
+</div>
+<div class="title">Figure 5. Icinga Director - Add new Icinga Command</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="/time/images/2016/07/07/06-icinga_director.png" alt="06 icinga director.png">
+</div>
+<div class="title">Figure 6. Icinga Director - Config preview</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="/time/images/2016/07/07/07-icinga_director.png" alt="07 icinga director.png">
+</div>
+<div class="title">Figure 7. Icinga Director - Icinga Commands</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_todo">TODO</h4>
+<div class="imageblock">
+<div class="content">
+<img src="/time/images/2016/07/07/08-icinga_director.png" alt="08 icinga director.png">
+</div>
+<div class="title">Figure 8. Icinga Director - Template tree | host-active</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="/time/images/2016/07/07/09-icinga_director.png" alt="09 icinga director.png">
+</div>
+<div class="title">Figure 9. Icinga Director - Template tree | Custom fields: host-active</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="/time/images/2016/07/07/10-icinga_director.png" alt="10 icinga director.png">
+</div>
+<div class="title">Figure 10. Icinga Director - Template tree | Custom fields: host-active</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_todo_2">TODO</h4>
+<div class="imageblock">
+<div class="content">
+<img src="/time/images/2016/07/07/11-icinga_director.png" alt="11 icinga director.png">
+</div>
+<div class="title">Figure 11. Icinga Director - Icinga Hosts | raspi</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="/time/images/2016/07/07/12-icinga_director.png" alt="12 icinga director.png">
+</div>
+<div class="title">Figure 12. Icinga Director - Icinga Hosts | raspi</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="/time/images/2016/07/07/13-icinga_director.png" alt="13 icinga director.png">
+</div>
+<div class="title">Figure 13. Icinga Director - Icinga Hosts | Config preview: raspi</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_todo_3">TODO</h4>
+<div class="imageblock">
+<div class="content">
+<img src="/time/images/2016/07/07/14-icinga_overview.png" alt="14 icinga overview.png">
+</div>
+<div class="title">Figure 14. Overview - Host 'raspi'</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="/time/images/2016/07/07/15-icinga_overview.png" alt="15 icinga overview.png">
+</div>
+<div class="title">Figure 15. Overview - Tactical Overview | Hosts 'raspi'</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_wird_fortgesetzt">Wird fortgesetzt&#8230;&#8203;</h4>
+
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_links">Links</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://monitoring-portal.org/index.php?thread/33218-temporär-am-netz-befindlichen-host-mit-nachgelagerten-checks-überwachen/" target="_blank">Monitoring-Portal: temporär am Netz befindlichen Host mit nachgelagerten checks überwachen</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_dank">Dank</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://github.com/mdo/github-buttons" target="_blank">GitHub Buttons</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_event_downtime_host_conf">Appendix A: event_downtime-host.conf</h2>
+<div class="sectionbody">
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code># event_downtime-host.conf
+
+object EventCommand "event_downtime-host" {
+    import "event-generic"
+
+    command = [
+        PluginDir + "/event_downtime",
+        "$host.name$",
+        "$host.state$",
+        "$host.state_type$",
+        "$host.check_attempt$",
+        "$host.vars.downtime_duration$"
+    ]
+}
+
+apply Dependency "downtime-host" to Host {
+    host.event_command = "event_downtime-host"
+
+    assign where host.vars.downtime_duration
+}</code></pre>
+</div>
+</div>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDomains", ["*.wols.github.io/time"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//wolsorg.pro-ssl.de/analytics/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 2]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//wolsorg.pro-ssl.de/analytics/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+</div>
+</div>
+<div id="footnotes">
+<hr>
+<div class="footnote" id="_footnote_1">
+<a href="#_footnoteref_1">1</a>. Icinga 2 API ab v0.3.0 <a href="https://github.com/wols/event_downtime/issues/2" target="_blank">#2</a>
+</div>
+</div>]]></description><link>https://wols.github.io/time/2016/07/07/Icinga2-Event-Downtime.html</link><guid isPermaLink="true">https://wols.github.io/time/2016/07/07/Icinga2-Event-Downtime.html</guid><category><![CDATA[monitoring]]></category><category><![CDATA[ icinga2]]></category><category><![CDATA[ icingaweb2]]></category><category><![CDATA[ icingaweb2-director]]></category><pubDate>Thu, 07 Jul 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Icinga2 - XMPP Notification]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>notification_xmpp - XMPP Notification Plugin Command for use (not only) with Icinga2</p>
+</div>
+<div id="toc" class="toc">
+<div id="toctitle" class="title">Inhalt</div>
+<ul class="sectlevel1">
+<li><a href="#_quellen">Quellen</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_quellen">Quellen</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://blog.netways.de/2014/07/17/jabber-notifications-mit-icinga-2/" target="_blank">Jabber-Notifications mit Icinga 2</a></p>
+</li>
+<li>
+<p><a href="https://dev.icinga.org/issues/11849" target="_blank">Icinga Web 2 Modules - Director - Feature #11849</a></p>
+</li>
+<li>
+<p><a href="http://linux-aha.de/wordpress/2010/07/16/ein-bisschen-grun-ein-bisschen-gelb-und-moglichst-wenig-rot-nagios-per-jabber-live-und-in-farbe/" target="_blank">Ein bisschen grün, ein bisschen gelb und möglichst wenig rot - Nagios per Jabber live und in Farbe</a></p>
+</li>
+</ul>
+</div>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDomains", ["*.wols.github.io/time"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//wolsorg.pro-ssl.de/analytics/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 2]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//wolsorg.pro-ssl.de/analytics/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+</div>
+</div>]]></description><link>https://wols.github.io/time/2016/06/15/Icinga2-XMPP-Notification.html</link><guid isPermaLink="true">https://wols.github.io/time/2016/06/15/Icinga2-XMPP-Notification.html</guid><category><![CDATA[monitoring]]></category><category><![CDATA[ icinga2]]></category><category><![CDATA[ icingaweb2]]></category><category><![CDATA[ icingaweb2-director]]></category><category><![CDATA[ jabber]]></category><category><![CDATA[ xmpp]]></category><pubDate>Wed, 15 Jun 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Icinga2 - Vom ClassicUI zum Icinga Web2]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Meine ersten Erfahrungen mit <strong>Icinga Web2</strong> (2.3.2) und der Darstellung von Host-Problemen: <a href="/time/2016/05/13/Icinga2-Vom-ClassicUI-zum-Icinga-Web2.html">im ersten Beitrag&#8230;&#8203;</a></p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="toc" class="toc">
+<div id="toctitle" class="title">Inhalt</div>
+<ul class="sectlevel1">
+<li><a href="#_service_probleme">Service-Probleme</a></li>
+<li><a href="#_mehrfache_best_tigung">Mehrfache Bestätigung</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_service_probleme">Service-Probleme</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Die Darstellung der Service-Probleme im ClassicUI ist vielen bestimmt noch bekannt.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="https://wols.github.io/time/images/2016/05/13/15-icinga1.png"><img src="/time/images/2016/05/13/15-icinga1_prev.png" alt="Icinga2 Core mit ClassicUI - Service-Probleme"></a>
+</div>
+<div class="title">Figure 1. Icinga2 Core mit ClassicUI - Service-Probleme</div>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Mit Icinga Web 2 funktioniert links eine Mehrfachauswahl: Anklicken bei gedrückter SHIFT-Taste.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="https://wols.github.io/time/images/2016/05/13/15-icinga2.png"><img src="/time/images/2016/05/13/15-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Service-Probleme (Mehrfachauswahl)"></a>
+</div>
+<div class="title">Figure 2. Icinga2 Core mit Icinga Web2 - Service-Probleme (Mehrfachauswahl)</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_mehrfache_best_tigung">Mehrfache Bestätigung</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Durch die vorherige Mehrfachauswahl sind mit einem Schlag alle vier Service-Probleme bestätigt und der Kommentar bei allen eingetragen.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="https://wols.github.io/time/images/2016/05/13/16-icinga2.png"><img src="/time/images/2016/05/13/16-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Services - Kommentare"></a>
+</div>
+<div class="title">Figure 3. Icinga2 Core mit Icinga Web 2 - Services - Kommentare</div>
+</div>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDomains", ["*.wols.github.io/time"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//wolsorg.pro-ssl.de/analytics/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 2]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//wolsorg.pro-ssl.de/analytics/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+</div>
+</div>]]></description><link>https://wols.github.io/time/2016/05/14/Icinga2-Vom-ClassicUI-zum-Icinga-Web2.html</link><guid isPermaLink="true">https://wols.github.io/time/2016/05/14/Icinga2-Vom-ClassicUI-zum-Icinga-Web2.html</guid><category><![CDATA[classicui]]></category><category><![CDATA[ monitoring]]></category><category><![CDATA[ icinga]]></category><category><![CDATA[ icinga2]]></category><category><![CDATA[ icingaweb2]]></category><pubDate>Sat, 14 May 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Icinga2 - Vom ClassicUI zum Icinga Web2]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Nach einigen Jahren Nagios und später Icinga(1), hatte ich nun auf Icinga2 (Core) umgestellt.</p>
+</div>
+<div class="paragraph">
+<p>Hier meine ersten Erfahrungen mit <strong>Icinga Web2</strong> (2.3.2).</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="toc" class="toc">
+<div id="toctitle" class="title">Inhalt</div>
+<ul class="sectlevel1">
+<li><a href="#_icinga2_core_mit_classicui_und_icinga_web2">Icinga2 Core mit ClassicUI und(!) Icinga Web2</a></li>
+<li><a href="#_im_vergleich_taktische_bersicht">Im Vergleich: Taktische Übersicht</a></li>
+<li><a href="#_startansicht_ist_nun_dashboard">Startansicht ist nun Dashboard</a></li>
+<li><a href="#_erstes_host_problem_best_tigen">Erstes Host-Problem bestätigen</a></li>
+<li><a href="#_verschiedene_darstellung_des_best_tigten_host_problems">Verschiedene Darstellung des bestätigten Host-Problems</a></li>
+<li><a href="#_erste_ansicht_host_probleme">Erste Ansicht Host-Probleme</a></li>
+<li><a href="#_host_probleme_unter_taktische_bersicht">Host-Probleme unter Taktische Übersicht</a></li>
+<li><a href="#_zweites_host_problem_best_tigen">Zweites Host-Problem bestätigen</a></li>
+<li><a href="#_zweite_ansicht_host_probleme">Zweite Ansicht Host-Probleme</a></li>
+<li><a href="#_dashboard_muted">Dashboard 'Muted'</a></li>
+<li><a href="#_dasboard_einstellungen">Dasboard-Einstellungen</a></li>
+<li><a href="#_dashboard_aktuelle_probleme_mit_neuem_filter">Dashboard 'Aktuelle Probleme' mit neuem Filter</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_icinga2_core_mit_classicui_und_icinga_web2">Icinga2 Core mit ClassicUI und(!) Icinga Web2</h2>
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<a class="image" href="https://wols.github.io/time/images/2016/05/13/01-icinga1.png"><img src="/time/images/2016/05/13/01-icinga1_prev.png" alt="Icinga2 Core mit ClassicUI"></a>
+</div>
+<div class="title">Figure 1. Icinga2 Core mit ClassicUI 1.13.3</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="https://wols.github.io/time/images/2016/05/13/01-icinga2.png"><img src="/time/images/2016/05/13/01-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2"></a>
+</div>
+<div class="title">Figure 2. Icinga2 Core mit Icinga Web2 2.3.2</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_im_vergleich_taktische_bersicht">Im Vergleich: Taktische Übersicht</h2>
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<a class="image" href="https://wols.github.io/time/images/2016/05/13/02-icinga1.png"><img src="/time/images/2016/05/13/02-icinga1_prev.png" alt="Icinga2 Core mit ClassicUI - Taktische Übersicht"></a>
+</div>
+<div class="title">Figure 3. Icinga2 Core mit ClassicUI - Taktische Übersicht</div>
+</div>
+<div class="paragraph">
+<p>Auf den ersten Blick war die neue Übersicht ein kleiner "Kulturschock" für mich :-)</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="https://wols.github.io/time/images/2016/05/13/02-icinga2.png"><img src="/time/images/2016/05/13/02-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Taktische Übersicht"></a>
+</div>
+<div class="title">Figure 4. Icinga2 Core mit Icinga Web2 - Taktische Übersicht</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_startansicht_ist_nun_dashboard">Startansicht ist nun Dashboard</h2>
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<a class="image" href="https://wols.github.io/time/images/2016/05/13/03-icinga1.png"><img src="/time/images/2016/05/13/03-icinga1_prev.png" alt="Icinga2 Core mit ClassicUI - Startansicht"></a>
+</div>
+<div class="title">Figure 5. Icinga2 Core mit ClassicUI - Startansicht mit zwei aktuellen Host-Problemen</div>
+</div>
+<div class="paragraph">
+<p>Im Vergleich fällt auf: Auf dem Dashboard 'Aktuelle Probleme' sind nicht nur rechts die Host-Probleme sichtbar, auch links die zugehörigen Services.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="https://wols.github.io/time/images/2016/05/13/03-icinga2.png"><img src="/time/images/2016/05/13/03-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Dashboard"></a>
+</div>
+<div class="title">Figure 6. Icinga2 Core mit Icinga Web2 - Dashboard 'Aktuelle Probleme'</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_erstes_host_problem_best_tigen">Erstes Host-Problem bestätigen</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Beim Bestätigen lautete der Kommentar &#8220;Problem via Icinga Web2 bestätigt&#8221;.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="https://wols.github.io/time/images/2016/05/13/04-icinga2.png"><img src="/time/images/2016/05/13/04-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Host-Problem via IcingaWeb2 bestätigt"></a>
+</div>
+<div class="title">Figure 7. Icinga2 Core mit Icinga Web2 - Erstes Host-Problem via IcingaWeb2 bestätigt</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_verschiedene_darstellung_des_best_tigten_host_problems">Verschiedene Darstellung des bestätigten Host-Problems</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Im ClassicUI wird das bestätigte Host-Problem (wie für mich gewohnt) ausgeblendet.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="https://wols.github.io/time/images/2016/05/13/05-icinga1.png"><img src="/time/images/2016/05/13/05-icinga1_prev.png" alt="Icinga2 Core mit ClassicUI - Dashboard"></a>
+</div>
+<div class="title">Figure 8. Icinga2 Core mit ClassicUI - Erstes bestätigtes Host-Problem ausgeblendet</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="https://wols.github.io/time/images/2016/05/13/05-icinga2.png"><img src="/time/images/2016/05/13/05-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Dashboard"></a>
+</div>
+<div class="title">Figure 9. Icinga2 Core mit Icinga Web2 - Dashboard 'Aktuelle Probleme' mit unbestätigtem und bestätigtem Host-Problem</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_erste_ansicht_host_probleme">Erste Ansicht Host-Probleme</h2>
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<a class="image" href="https://wols.github.io/time/images/2016/05/13/06-icinga1.png"><img src="/time/images/2016/05/13/06-icinga1_prev.png" alt="Icinga2 Core mit ClassicUI - Host-Probleme"></a>
+</div>
+<div class="title">Figure 10. Icinga2 Core mit ClassicUI - Host-Probleme</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="https://wols.github.io/time/images/2016/05/13/06-icinga2.png"><img src="/time/images/2016/05/13/06-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Host-Probleme"></a>
+</div>
+<div class="title">Figure 11. Icinga2 Core mit Icinga Web2 - Host Probleme</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_host_probleme_unter_taktische_bersicht">Host-Probleme unter Taktische Übersicht</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Die viel detaillierte Taktische Übersicht des ClassicUI zeigt das bestätigte Host-Problem.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="https://wols.github.io/time/images/2016/05/13/07-icinga1.png"><img src="/time/images/2016/05/13/07-icinga1_prev.png" alt="Icinga2 Core mit ClassicUI - Taktische Übersicht"></a>
+</div>
+<div class="title">Figure 12. Icinga2 Core mit ClassicUI - Taktische Übersicht</div>
+</div>
+<div class="paragraph">
+<p>Bei Icinga Web2 gibt es keinen Unterschied zur <a href="#_im_vergleich_taktische_bersicht">Anfangsdarstellung</a>.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="https://wols.github.io/time/images/2016/05/13/07-icinga2.png"><img src="/time/images/2016/05/13/07-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Taktische Übersicht"></a>
+</div>
+<div class="title">Figure 13. Icinga2 Core mit Icinga Web2 - Taktisch Übersicht</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_zweites_host_problem_best_tigen">Zweites Host-Problem bestätigen</h2>
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<a class="image" href="https://wols.github.io/time/images/2016/05/13/08-icinga2.png"><img src="/time/images/2016/05/13/08-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Zweites Host-Problem via IcingaWeb2 bestätigt"></a>
+</div>
+<div class="title">Figure 14. Icinga2 Core mit Icinga Web2 - Zweites Host-Problem via IcingaWeb2 bestätigt</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_zweite_ansicht_host_probleme">Zweite Ansicht Host-Probleme</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Beide bestätigten Host-Probleme sind im ClassicUI ausgeblendet.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="https://wols.github.io/time/images/2016/05/13/09-icinga1.png"><img src="/time/images/2016/05/13/09-icinga1_prev.png" alt="Icinga2 Core mit ClassicUI - Host-Probleme"></a>
+</div>
+<div class="title">Figure 15. Icinga2 Core mit ClassicUI - Host-Probleme</div>
+</div>
+<div class="paragraph">
+<p>Mit Icinga Web2 erinnern <strong>ganz rechts die beiden Haken</strong> und die <strong>verringerte roten Flächen</strong> an die vorangegangenen Problembestätigungen.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="https://wols.github.io/time/images/2016/05/13/09-icinga2.png"><img src="/time/images/2016/05/13/09-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Host-Probleme"></a>
+</div>
+<div class="title">Figure 16. Icinga2 Core mit Icinga Web2 - Host-Probleme</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_dashboard_muted">Dashboard 'Muted'</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Das Dashboard 'Muted' zeigt (wie von mir erwarted) unter der Überschrift 'Bestätigte Host-Probleme' die beiden Einträge.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="https://wols.github.io/time/images/2016/05/13/10-icinga2.png"><img src="/time/images/2016/05/13/10-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Dashboard 'Muted'"></a>
+</div>
+<div class="title">Figure 17. Icinga2 Core mit Icinga Web2 - Dashboard 'Muted'</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_dasboard_einstellungen">Dasboard-Einstellungen</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Ich wollte nun meine gewohnte Darstellung der ausgeblendeten Host-Probleme auf dem Dashboard 'Aktuelle Probleme' herstellen.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="https://wols.github.io/time/images/2016/05/13/11-icinga2.png"><img src="/time/images/2016/05/13/11-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Dashboard-Einstellungen"></a>
+</div>
+<div class="title">Figure 18. Icinga2 Core mit Icinga Web2 - Dashboard-Einstellungen</div>
+</div>
+<div class="literalblock">
+<div class="title">Das Dashlet 'Host-Probleme' hatte diese Filter hinterlegt:</div>
+<div class="content">
+<pre>monitoring/list/hosts?host_problem=1&amp;sort=host_severity</pre>
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="https://wols.github.io/time/images/2016/05/13/12-icinga2.png"><img src="/time/images/2016/05/13/12-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Dashlet bearbeiten"></a>
+</div>
+<div class="title">Figure 19. Icinga2 Core mit Icinga Web2 - Dashlet bearbeiten</div>
+</div>
+<div class="literalblock">
+<div class="title">Meine Ergänzung mit <code>&amp;host_acknowledged=0</code> ergibt dann die neue Zeile.</div>
+<div class="content">
+<pre>monitoring/list/hosts?host_problem=1&amp;host_acknowledged=0&amp;sort=host_severity</pre>
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="https://wols.github.io/time/images/2016/05/13/13-icinga2.png"><img src="/time/images/2016/05/13/13-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Dashboard-Einstellungen"></a>
+</div>
+<div class="title">Figure 20. Icinga2 Core mit Icinga Web2 - Dashboard-Einstellungen</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_dashboard_aktuelle_probleme_mit_neuem_filter">Dashboard 'Aktuelle Probleme' mit neuem Filter</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Jetzt sind die bestätigten Host-Probleme auch vom Dashboard 'Aktuelle Probleme' ausgeblendet.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="https://wols.github.io/time/images/2016/05/13/14-icinga2.png"><img src="/time/images/2016/05/13/14-icinga2_prev.png" alt="Icinga2 Core mit Icinga Web2 - Dashboard 'Aktuelle Probleme'"></a>
+</div>
+<div class="title">Figure 21. Icinga2 Core mit Icinga Web2 - Dashboard 'Aktuelle Probleme'</div>
+</div>
+<div class="paragraph">
+<p>Zur Erinnerung: Unter <a href="#_dashboard_muted">'Muted'</a> findet man sie natürlich noch.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Darstellung von Service-Problemen: <a href="/time/2016/05/14/Icinga2-Vom-ClassicUI-zum-Icinga-Web2.html">im zweiten Beitrag&#8230;&#8203;</a></p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDomains", ["*.wols.github.io/time"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//wolsorg.pro-ssl.de/analytics/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 2]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//wolsorg.pro-ssl.de/analytics/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+</div>
+</div>]]></description><link>https://wols.github.io/time/2016/05/13/Icinga2-Vom-ClassicUI-zum-Icinga-Web2.html</link><guid isPermaLink="true">https://wols.github.io/time/2016/05/13/Icinga2-Vom-ClassicUI-zum-Icinga-Web2.html</guid><category><![CDATA[classicui]]></category><category><![CDATA[ monitoring]]></category><category><![CDATA[ icinga]]></category><category><![CDATA[ icinga2]]></category><category><![CDATA[ icingaweb2]]></category><pubDate>Fri, 13 May 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Links]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div id="toc" class="toc">
+<div id="toctitle" class="title">Inhalt</div>
+<ul class="sectlevel1">
+<li><a href="#_utc">UTC</a></li>
+<li><a href="#_ntp">NTP</a></li>
+<li><a href="#_uhren">Uhren</a></li>
+<li><a href="#_monitoring">Monitoring</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_utc">UTC</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://www.bipm.org/en/bipm-services/timescales/" target="_blank">BIPM :: International reference time scales</a></p>
+</li>
+<li>
+<p>UTC Zeitlabore</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Deutschland</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://www.ptb.de/cms/ptb/fachabteilungen/abt4/fb-44/ag-441/darstellung-der-gesetzlichen-zeit/koordinierte-weltzeitskala-utc.html" target="_blank">PTB</a></p>
+</li>
+<li>
+<p><a href="http://www.bkg.bund.de/nn_178112/Wettzell/DE/Verzeichnisbaum/LokaleMesssysteme/ZeitundFrequenz/ZeitundFrequenz__node.html" target="_blank">IFAG</a></p>
+</li>
+<li>
+<p><a href="http://www.dlr.de/kn/desktopdefault.aspx/tabid-2205/3262_read-9182/" target="_blank">DLR</a></p>
+</li>
+<li>
+<p>DTAG</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>USA</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://www.nist.gov/pml/div688/grp50/" target="_blank">NIST</a></p>
+</li>
+<li>
+<p><a href="http://tycho.usno.navy.mil/" target="_blank">USNO</a></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Zeitskalen und Schaltsekunden</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://www.stjarnhimlen.se/comp/time.html" target="_blank">Time scales by Paul Schlyter, Stockholm, Sweden</a></p>
+</li>
+<li>
+<p><a href="http://www.leapsecond.com/java/gpsclock.htm" target="_blank">Link-Sammlung LeapSecond.com</a></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_ntp">NTP</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://de.wikipedia.org/wiki/Network_Time_Protocol" target="_blank">Wikipedia: Network Time Protocol</a></p>
+</li>
+<li>
+<p><a href="http://nwtime.org/" target="_blank">Network Time Foundation</a></p>
+</li>
+<li>
+<p>&#8230;&#8203;</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_uhren">Uhren</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://www.uhrenhanse.de/sammlerecke/wissenswertes/hoffmann.htm" target="_blank">Ist es IIII Uhr oder IV Uhr?</a></p>
+</li>
+<li>
+<p>&#8230;&#8203;</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_monitoring">Monitoring</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Icinga2</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://www.spiller.me/tag/icinga2/" target="_blank">/SYS/ADM/AMA Alle Artikel mit dem Schlagwort: icinga2</a></p>
+</li>
+<li>
+<p><a href="https://www.linuxfrickeln.de/visualisierung-von-performancedaten-in-der-icingaweb2-gui/" target="_blank">Anzeige von Performancedaten in Icingaweb2-GUI mit Graphite/Icinga2</a></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDomains", ["*.wols.github.io/time"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//wolsorg.pro-ssl.de/analytics/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 2]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//wolsorg.pro-ssl.de/analytics/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+</div>
+</div>]]></description><link>https://wols.github.io/time/2016/04/01/Links.html</link><guid isPermaLink="true">https://wols.github.io/time/2016/04/01/Links.html</guid><pubDate>Fri, 01 Apr 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[NTP]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div id="toc" class="toc">
+<div id="toctitle" class="title">Inhalt</div>
+<ul class="sectlevel1">
+<li><a href="#_network_time_protocol">Network Time Protocol</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_network_time_protocol">Network Time Protocol</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Coming soon&#8230;&#8203;</p>
+</div>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDomains", ["*.wols.github.io/time"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//wolsorg.pro-ssl.de/analytics/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 2]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//wolsorg.pro-ssl.de/analytics/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+</div>
+</div>]]></description><link>https://wols.github.io/time/2016/03/30/NTP.html</link><guid isPermaLink="true">https://wols.github.io/time/2016/03/30/NTP.html</guid><category><![CDATA[networktime]]></category><category><![CDATA[ ntp]]></category><category><![CDATA[ utc]]></category><pubDate>Wed, 30 Mar 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[NTP - Status]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div id="toc" class="toc">
+<div id="toctitle" class="title">Inhalt</div>
+<ul class="sectlevel1">
+<li><a href="#_sch_ne_ntp_status_abfragen">Schöne NTP Status-Abfragen</a>
+<ul class="sectlevel2">
+<li><a href="#_server_infos">Server Infos</a></li>
+<li><a href="#_server_peers_and_variables">Server Peers and Variables</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_sch_ne_ntp_status_abfragen">Schöne NTP Status-Abfragen</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_server_infos">Server Infos</h3>
+<div class="listingblock">
+<div class="content">
+<pre>date -u --iso-8601=s ; echo ; ntpq -c version ; echo ; ntpq -np ; echo ; ntpq -c as ; echo ; ntpq -c cv ; echo ; ntpq -c kern ; echo ; ntpq -c rv</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>&#8230;&#8203;liefert&#8230;&#8203;</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>2016-05-03T15:39:03+0000
+
+ntpq 4.2.8p6@1.3265-o Thu Mar 31 07:34:00 UTC 2016 (1)
+
+     remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*192.168.9.21    .PPSd.           1 u    -   64  377    0.873   -0.107   0.405
+o127.127.22.0    .PPSd.           0 l   14   16  377    0.000   -0.149   0.398
+ 192.168.9.29    .PPSd.           1 u  129  128  377    0.739   -0.001   0.085
+
+
+ind assid status  conf reach auth condition  last_event cnt
+===========================================================
+  1 39932  963a   yes   yes  none  sys.peer    sys_peer  3
+  2 39933  973a   yes   yes  none  pps.peer    sys_peer  3
+  3 39934  9024   yes   yes  none    reject   reachable  2
+
+associd=0 status=0000 no events, clk_unspec,
+device="PPS Clock Discipline", timecode=, poll=74, noreply=0,
+badformat=0, baddata=0, stratum=16, refid=80.80.83.100, flags=0
+
+associd=0 status=0115 leap_none, sync_pps, 1 event, clock_sync,
+pll offset:            -0.117973
+pll frequency:         10.8603
+maximum error:         0.0085
+estimated error:       0.00038
+kernel status:         pll nano
+pll time constant:     4
+precision:             1e-06
+frequency tolerance:   500
+pps frequency:         0
+pps stability:         0
+pps jitter:            0
+calibration interval   0
+calibration cycles:    0
+jitter exceeded:       0
+stability exceeded:    0
+calibration errors:    0
+
+associd=0 status=0115 leap_none, sync_pps, 1 event, clock_sync,
+version="ntpd 4.2.8p6@1.3265-o Thu Mar 31 07:33:51 UTC 2016 (1)",
+processor="i586", system="Linux/3.7.10-gentoo-net4801", leap=00,
+stratum=1, precision=-17, rootdelay=0.000, rootdisp=1.225, refid=PPSd,
+reftime=dad34489.1a062918  Tue, May  3 2016 15:38:49.101,
+clock=dad34498.e0b1d77d  Tue, May  3 2016 15:39:04.877, peer=39933, tc=4,
+mintc=3, offset=-0.149409, frequency=10.860, sys_jitter=0.398167,
+clk_jitter=0.380, clk_wander=0.115</pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_server_peers_and_variables">Server Peers and Variables</h3>
+<div class="listingblock">
+<div class="content">
+<pre>watch -n 15 'date -u --iso-8601=ns ; echo ; ntpq -np ; echo ; ntpq -c rv'</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>&#8230;&#8203;erzeugt alle 15 Sekunden&#8230;&#8203;</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>Every 15,0s: date -u --iso-8601=ns ; echo ; ntpq -np ; echo ; ntpq -c rv     Tue May  3 15:22:32 2016
+
+2016-05-03T15:22:32,254079303+0000
+
+     remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*192.168.9.21    .PPSd.           1 u   61   64    7    0.787   -0.021   0.260
+o127.127.22.0    .PPSd.           0 l   15   16  377    0.000    1.010   1.005
+ 192.168.9.29    .PPSd.           1 u   62  128    3    0.628   -0.015   0.099
+
+associd=0 status=0115 leap_none, sync_pps, 1 event, clock_sync,
+version="ntpd 4.2.8p6@1.3265-o Thu Mar 31 07:33:51 UTC 2016 (1)",
+processor="i586", system="Linux/3.7.10-gentoo-net4801", leap=00,
+stratum=1, precision=-17, rootdelay=0.000, rootdisp=1.992, refid=PPSd,
+reftime=dad340b9.1a088f5b  Tue, May  3 2016 15:22:33.101,
+clock=dad340b9.3aa8c9df  Tue, May  3 2016 15:22:33.229, peer=39933, tc=4,
+mintc=3, offset=0.910105, frequency=11.371, sys_jitter=0.839618,
+clk_jitter=0.332, clk_wander=0.113</pre>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_setup">Setup</h4>
+<div class="paragraph">
+<p>Das zugehörige NTP-Setup erläutere ich in Kürze&#8230;&#8203;</p>
+</div>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDomains", ["*.wols.github.io/time"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//wolsorg.pro-ssl.de/analytics/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 2]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//wolsorg.pro-ssl.de/analytics/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+</div>
+</div>
+</div>
+</div>]]></description><link>https://wols.github.io/time/2016/03/30/NTP-Status.html</link><guid isPermaLink="true">https://wols.github.io/time/2016/03/30/NTP-Status.html</guid><category><![CDATA[networktime]]></category><category><![CDATA[ ntp]]></category><category><![CDATA[ ntp-debug]]></category><pubDate>Wed, 30 Mar 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[NTP Pool Project]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="imageblock" style="text-align: left">
+<div class="content">
+<a class="image" href="http://www.pool.ntp.org/"><img src="http://www.pool.ntp.org/static/images/logo.v1.png" alt="logo.v1.png"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_80_244_251_222">80.244.251.222</h2>
+<div class="sectionbody">
+<div class="imageblock" style="text-align: left">
+<div class="content">
+<a class="image" href="http://www.pool.ntp.org/scores/80.244.251.222/"><img src="http://graphs.ntppool.net/graph/80.244.251.222/offset.png" alt="offset.png"></a>
+</div>
+</div>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDomains", ["*.wols.github.io/time"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//wolsorg.pro-ssl.de/analytics/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 2]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//wolsorg.pro-ssl.de/analytics/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+</div>
+</div>]]></description><link>https://wols.github.io/time/2016/03/30/NTP-Pool-Project.html</link><guid isPermaLink="true">https://wols.github.io/time/2016/03/30/NTP-Pool-Project.html</guid><category><![CDATA[networktime]]></category><category><![CDATA[ ntp]]></category><category><![CDATA[ ntppool]]></category><category><![CDATA[ utc]]></category><pubDate>Wed, 30 Mar 2016 00:00:00 GMT</pubDate></item></channel></rss>
