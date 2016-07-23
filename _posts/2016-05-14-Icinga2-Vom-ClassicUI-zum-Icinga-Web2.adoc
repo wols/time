@@ -7,7 +7,7 @@
 
 [NOTE]
 ====
-Meine ersten Erfahrungen mit *Icinga Web2* (2.3.2) und der Darstellung von Host-Problemen: link:/time/2016/05/13/Icinga2-Vom-Classic-U-I-zum-Icinga-Web2.html[im ersten Beitrag...]
+Meine ersten Erfahrungen mit *Icinga Web2* (2.3.2) und der Darstellung von Host-Problemen: link:/time/2016/05/13/Icinga2-Vom-ClassicUI-zum-Icinga-Web2.html[im ersten Beitrag...]
 ====
 
 toc::[]
