@@ -17,7 +17,7 @@ toc::[]
 Die Darstellung der Service-Probleme im ClassicUI ist vielen bestimmt noch bekannt.
 
 .Icinga2 Core mit ClassicUI - Service-Probleme
-image::/time/images/2016/05/14/15-icinga1_prev.png[Icinga2 Core mit ClassicUI - Service-Probleme, link="https://wols.github.io/time/images/2016/05/14/15-icinga1.png"]
+image::/time/images/2016/05/14/15-icinga1_prev.png[Icinga2 Core mit ClassicUI - Service-Probleme, link="/time/images/2016/05/14/15-icinga1.png"]
 
 [TIP]
 ====
@@ -25,14 +25,14 @@ Mit Icinga Web 2 funktioniert links eine Mehrfachauswahl: Anklicken bei gedrück
 ====
 
 .Icinga2 Core mit Icinga Web2 - Service-Probleme (Mehrfachauswahl)
-image::/time/images/2016/05/14/15-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Service-Probleme (Mehrfachauswahl), link="https://wols.github.io/time/images/2016/05/14/15-icinga2.png"]
+image::/time/images/2016/05/14/15-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Service-Probleme (Mehrfachauswahl), link="/time/images/2016/05/14/15-icinga2.png"]
 
 == Mehrfache Bestätigung
 
 Durch die vorherige Mehrfachauswahl sind mit einem Schlag alle vier Service-Probleme bestätigt und der Kommentar bei allen eingetragen.
 
 .Icinga2 Core mit Icinga Web 2 - Services - Kommentare
-image::/time/images/2016/05/14/16-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Services - Kommentare, link="https://wols.github.io/time/images/2016/05/14/16-icinga2.png"]
+image::/time/images/2016/05/14/16-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Services - Kommentare, link="/time/images/2016/05/14/16-icinga2.png"]
 
 
 
