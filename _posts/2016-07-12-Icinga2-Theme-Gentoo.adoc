@@ -1,6 +1,6 @@
 = Icinga2 - Theme Gentoo
 :published_at: 2016-07-12
-:hp-tags:      gentoo, monitoring, icinga2, icingaweb2
+:hp-tags:      gentoo, icinga2, icingaweb2, monitoring
 :linkattrs:
 :toc:          macro
 :toc-title:    Inhalt
