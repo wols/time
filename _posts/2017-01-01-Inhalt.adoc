@@ -5,15 +5,15 @@
 :toc:          macro
 :toc-title:    Inhalt
 
-* https://wols.github.io/time/2016/03/30/NTP.html[NTP]
-** https://wols.github.io/time/2016/03/30/NTP-Pool-Project.html[NTP Pool Project]
-** https://wols.github.io/time/2016/03/30/NTP-Status.html[NTP - Status]
+* link:/time/2016/03/30/NTP.html[NTP]
+** link:/time/2016/03/30/NTP-Pool-Project.html[NTP Pool Project]
+** link:/time/2016/03/30/NTP-Status.html[NTP - Status]
 * Icinga2
-** https://wols.github.io/time/2016/05/13/Icinga2-Vom-ClassicUI-zum-Icinga-Web2.html[Vom ClassicUI zum Icinga Web2, Teil 1]
-** https://wols.github.io/time/2016/05/14/Icinga2-Vom-ClassicUI-zum-Icinga-Web2.html[Vom ClassicUI zum Icinga Web2, Teil 2]
-** https://wols.github.io/time/2016/07/07/Icinga2-Event-Downtime.html[Event Downtime]
-** https://wols.github.io/time/2016/06/15/Icinga2-XMPP-Notification.html[XMPP Notification]
-** https://wols.github.io/time/2016/07/12/Icinga2-Theme-Gentoo.html[Theme Gentoo]
+** link:/time/2016/05/13/Icinga2-Vom-ClassicUI-zum-Icinga-Web2.html[Vom ClassicUI zum Icinga Web2, Teil 1]
+** link:/time/2016/05/14/Icinga2-Vom-ClassicUI-zum-Icinga-Web2.html[Vom ClassicUI zum Icinga Web2, Teil 2]
+** link:/time/2016/07/07/Icinga2-Event-Downtime.html[Event Downtime]
+** link:/time/2016/06/15/Icinga2-XMPP-Notification.html[XMPP Notification]
+** link:/time/2016/07/12/Icinga2-Theme-Gentoo.html[Theme Gentoo]
 * link:/time/2016/04/01/Links.html[Links]
 
 // Don't remove next (last) lines!
