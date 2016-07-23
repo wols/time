@@ -1,5 +1,0 @@
-= New Post
-
-== No content here
-
-only a test...
