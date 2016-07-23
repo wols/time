@@ -19,7 +19,10 @@ Die Darstellung der Service-Probleme im ClassicUI ist vielen bestimmt noch bekan
 .Icinga2 Core mit ClassicUI - Service-Probleme
 image::/time/images/2016/05/13/15-icinga1_prev.png[Icinga2 Core mit ClassicUI - Service-Probleme, link="https://wols.github.io/time/images/2016/05/13/15-icinga1.png"]
 
-TIP: Mit Icinga Web 2 funktioniert links eine Mehrfachauswahl: Anklicken bei gdrückter SHIFT-Taste.
+[TIP]
+====
+Mit Icinga Web 2 funktioniert links eine Mehrfachauswahl: Anklicken bei gedrückter SHIFT-Taste.
+====
 
 .Icinga2 Core mit Icinga Web2 - Service-Probleme (Mehrfachauswahl)
 image::/time/images/2016/05/13/15-icinga2_prev.png[Icinga2 Core mit Icinga Web2 - Service-Probleme (Mehrfachauswahl), link="https://wols.github.io/time/images/2016/05/13/15-icinga2.png"]
