@@ -12,7 +12,7 @@ toc::[]
 == Anwendungsfälle
 
 link:https://www.icinga.org/[Icinga, window="_blank"] und andere Monitoring-Systeme werden überwiegend zur Überwachung dauerhaft erreichbarer Komponenten eingesetzt.
-Es gibt Szenarien in denen die *Nichterreichbarkeit aber durchaus normal* ist, und deshalb keine Alarmierung oder Benachrichtigung erfolgen soll.
+Es gibt Szenarien in denen die *Nichterreichbarkeit aber durchaus normal* ist, und deshalb keine Alarmierung oder Benachrichtigung erfolgen soll:
 
 * Notebooks
 ** Ruhe- und Ausschalt-Perioden
@@ -66,7 +66,7 @@ COMMAND[UP]="DEL_DOWNTIME_BY_HOST_NAME;<host_name>"
 COMMAND[DOWN]="SCHEDULE_HOST_DOWNTIME;<host_name>;<start_time>;<end_time>;<fixed>;<trigger_id>;<duration>;<author>;<comment>"
 ----
 
-Quelle: link:http://docs.icinga.org/icinga2/latest/doc/module/icinga2/chapter/icinga2-features#external-commands[]
+Quelle: link:http://docs.icinga.org/icinga2/latest/doc/module/icinga2/chapter/icinga2-features#external-commands[Icinga 2 Features - External Commands, window="_blank"]
 
 == Installation
 
