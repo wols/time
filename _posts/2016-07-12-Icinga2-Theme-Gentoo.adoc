@@ -20,7 +20,7 @@ image::/time/images/2016/07/12/01-icinga_user_preferences.png[title="Icinga - Us
             +--site-logo.png
 ----
 
-[source,css]
+[source, css]
 .gentoo.less
 ----
 /*
@@ -37,7 +37,6 @@ image::/time/images/2016/07/12/01-icinga_user_preferences.png[title="Icinga - Us
 #header, #login {
     background: url('../img/gentoo/site-logo.png') right center no-repeat, linear-gradient(to right, #463c65 0%, #dddaec 100%);
 }
-
 ----
 
 // Don't remove next (last) lines!
