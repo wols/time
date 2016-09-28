@@ -31,7 +31,7 @@ toc::[]
 
 == Uhren
 
-* http://http://www.kowoma.de/gps/zusatzerklaerungen/Praezision.htm["Präzision, Richtigkeit und Genauigkeit", window="_blank"]
+* http://www.kowoma.de/gps/zusatzerklaerungen/Praezision.htm["Präzision, Richtigkeit und Genauigkeit", window="_blank"]
 * http://www.uhrenhanse.de/sammlerecke/wissenswertes/hoffmann.htm[Ist es IIII Uhr oder IV Uhr?, window="_blank"]
 * ...
 
