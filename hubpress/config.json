@@ -2,20 +2,38 @@
   "meta": {
     "username": "wols",
     "repositoryName": "time",
-    "branch": "gh-pages"
+    "branch": "gh-pages",
+    "cname": ""
   },
   "site": {
     "title": "time@wols.org",
     "description": "My personal site about time",
     "logo": "",
     "cover": "/time/images/table.jpg",
-    "postsPerPage": "3"
+    "postsPerPage": "3",
+    "delay": "",
+    "googleAnalytics": "",
+    "disqus": ""
   },
   "socialnetwork": {
     "email": "time@wols.org",
-    "github": "https://github.com/wols/"
+    "github": "https://github.com/wols/",
+    "twitter": "",
+    "facebook": "",
+    "googleplus": "",
+    "instagram": "",
+    "pinterest": "",
+    "flickr": "",
+    "linkedin": "",
+    "stackoverflow": ""
   },
   "theme": {
     "name": "ghostium"
+  },
+  "urls": {
+    "site": "https://wols.github.io/time",
+    "hubpress": "https://wols.github.io/time",
+    "theme": "//wols.github.io/time/themes/ghostium",
+    "images": "https://wols.github.io/time/images"
   }
 }
