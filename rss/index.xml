@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[time@wols.org]]></title><description><![CDATA[My personal site about time]]></description><link>https://wols.github.io/time</link><image><url>/time/images/table.jpg</url><title>time@wols.org</title><link>https://wols.github.io/time</link></image><generator>RSS for Node</generator><lastBuildDate>Wed, 28 Sep 2016 11:40:24 GMT</lastBuildDate><atom:link href="https://wols.github.io/time/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Inhalt]]></title><description><![CDATA[<div class="ulist">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[time@wols.org]]></title><description><![CDATA[My personal site about time]]></description><link>https://wols.github.io/time</link><image><url>/time/images/table.jpg</url><title>time@wols.org</title><link>https://wols.github.io/time</link></image><generator>RSS for Node</generator><lastBuildDate>Sun, 05 Mar 2017 21:43:25 GMT</lastBuildDate><atom:link href="https://wols.github.io/time/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Inhalt]]></title><description><![CDATA[<div class="ulist">
 <ul>
 <li>
 <p><a href="/time/2016/03/30/NTP.html">NTP</a></p>
@@ -314,6 +314,9 @@ sudo -H -u icinga /usr/lib/nagios/plugins/event_downtime raspi DOWN HARD 1 60480
 <h3 id="_icingaweb_2_module_director">Icingaweb 2 Module Director</h3>
 <div class="sect3">
 <h4 id="_datenliste_list_downtime_duration">Datenliste 'list-downtime_duration'</h4>
+<div class="paragraph">
+<p>Zuerst lege ich eine Datenliste mit den Zeitperioden an, in denen ich Hosts mindestens einmal aktiv <code>UP</code> sehen möchte.</p>
+</div>
 <div class="imageblock">
 <div class="content">
 <img src="/time/images/2016/07/07/01-icinga_director.png" alt="01 icinga director.png">
@@ -331,6 +334,28 @@ sudo -H -u icinga /usr/lib/nagios/plugins/event_downtime raspi DOWN HARD 1 60480
 month x 12 = 29030400 = year</pre>
 </div>
 </div>
+<div class="paragraph">
+<p>Diese Auswahl ermöglicht mir die verschiedensten Host-Typen zuzuordnen:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>hour</code> - Hosts, die nicht länger als eine Stunde offline sein sollen</p>
+</li>
+<li>
+<p><code>day</code> - Hosts, die tägliche Aktualisierungen erhalten müssen</p>
+</li>
+<li>
+<p><code>week</code> - Hosts, im Home-Office, die mindestens einmal wöchentlich am Unternehmensnetz sein müssen</p>
+</li>
+<li>
+<p><code>month</code> - Hosts, deren Backup nicht zu sehr veralten darf</p>
+</li>
+<li>
+<p><code>year</code> - Hosts, die nie vergessen werden sollen :-)</p>
+</li>
+</ul>
+</div>
 <div class="imageblock">
 <div class="content">
 <img src="/time/images/2016/07/07/02-icinga_director.png" alt="02 icinga director.png">
@@ -341,6 +366,9 @@ month x 12 = 29030400 = year</pre>
 </div>
 <div class="sect3">
 <h4 id="_datenfeld_downtime_duration">Datenfeld 'downtime_duration'</h4>
+<div class="paragraph">
+<p>Das Datenfeld <code>downtime_duration</code> wird später mit einem Wert aus <code>list-downtime_duration</code> gefüllt.</p>
+</div>
 <div class="imageblock">
 <div class="content">
 <img src="/time/images/2016/07/07/03-icinga_director.png" alt="03 icinga director.png">

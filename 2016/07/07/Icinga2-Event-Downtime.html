@@ -38,9 +38,9 @@
     <link href="//fonts.googleapis.com/" rel="dns-prefetch">
     <link href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Open+Sans:700,400&subset=latin,latin-ext" rel="stylesheet">
 
-    <link rel="stylesheet" href="//wols.github.io/time/themes/ghostium/assets/css/main.min.css?v=1469287926752"/>
-    <link rel="stylesheet" href="//wols.github.io/time/themes/ghostium/assets/css/custom.css?v=1469287926752"/>
-    <link rel="stylesheet" href="//wols.github.io/time/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1469287926752"/>
+    <link rel="stylesheet" href="//wols.github.io/time/themes/ghostium/assets/css/main.min.css?v=1488750205327"/>
+    <link rel="stylesheet" href="//wols.github.io/time/themes/ghostium/assets/css/custom.css?v=1488750205327"/>
+    <link rel="stylesheet" href="//wols.github.io/time/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1488750205327"/>
 
 
 
@@ -70,7 +70,7 @@
       GHOSTIUM.enablePjax = typeof enable_pjax !== 'undefined' ? enable_pjax : true;
     </script>
 
-    <script src="//wols.github.io/time/themes/ghostium/assets/js/head-scripts.min.js?v=1469287926752"></script>
+    <script src="//wols.github.io/time/themes/ghostium/assets/js/head-scripts.min.js?v=1488750205327"></script>
 
     <link rel="canonical" href="https://wols.github.io/time/2016/07/07/Icinga2-Event-Downtime.html" />
     <meta name="referrer" content="origin" />
@@ -154,7 +154,7 @@ null
             <ul class="post-meta-list">
               <li class="post-meta-item">
                 <time datetime="2016-07-07" itemprop="datePublished">
-                  17 days ago
+                  8 months ago
                 </time>
               </li>
                 <li class="post-meta-item">
@@ -167,13 +167,13 @@ null
                 <a href="#disqus_thread" data-disqus-identifier="">Comments</a>
               </li>
             </ul>
-            <h1 itemprop="name headline" class="post-title"><a href="https://wols.github.io/time/2016/07/07/Icinga2-Event-Downtime.html" itemprop="url" data-pjax title="Icinga2 - Event Downtime">Icinga2 - Event Downtime</a></h1>
+            <h1 itemprop="name headline" class="post-title"><a href="/" itemprop="url" data-pjax title="Icinga2 - Event Downtime">Icinga2 - Event Downtime</a></h1>
             <!--h2 itemprop="about" class="post-subtitle"></h2-->
           </header>
           <aside class="post-side">
             <div class="post-author">
                 <a href="http://wols.github.io/time/" class="post-author-avatar">
-                  <img src="https://avatars.githubusercontent.com/u/764167?v&#x3D;3" alt="wols">
+                  <img src="https://avatars0.githubusercontent.com/u/764167?v&#x3D;3" alt="wols">
                 </a>
               <div class="post-author-info">
                 <a href="http://wols.github.io/time/" class="post-author-name">
@@ -390,6 +390,9 @@ sudo -H -u icinga /usr/lib/nagios/plugins/event_downtime raspi DOWN HARD 1 60480
 <h3 id="_icingaweb_2_module_director">Icingaweb 2 Module Director</h3>
 <div class="sect3">
 <h4 id="_datenliste_list_downtime_duration">Datenliste 'list-downtime_duration'</h4>
+<div class="paragraph">
+<p>Zuerst lege ich eine Datenliste mit den Zeitperioden an, in denen ich Hosts mindestens einmal aktiv <code>UP</code> sehen möchte.</p>
+</div>
 <div class="imageblock">
 <div class="content">
 <img src="/time/images/2016/07/07/01-icinga_director.png" alt="01 icinga director.png">
@@ -407,6 +410,28 @@ sudo -H -u icinga /usr/lib/nagios/plugins/event_downtime raspi DOWN HARD 1 60480
 month x 12 = 29030400 = year</pre>
 </div>
 </div>
+<div class="paragraph">
+<p>Diese Auswahl ermöglicht mir die verschiedensten Host-Typen zuzuordnen:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>hour</code> - Hosts, die nicht länger als eine Stunde offline sein sollen</p>
+</li>
+<li>
+<p><code>day</code> - Hosts, die tägliche Aktualisierungen erhalten müssen</p>
+</li>
+<li>
+<p><code>week</code> - Hosts, im Home-Office, die mindestens einmal wöchentlich am Unternehmensnetz sein müssen</p>
+</li>
+<li>
+<p><code>month</code> - Hosts, deren Backup nicht zu sehr veralten darf</p>
+</li>
+<li>
+<p><code>year</code> - Hosts, die nie vergessen werden sollen :-)</p>
+</li>
+</ul>
+</div>
 <div class="imageblock">
 <div class="content">
 <img src="/time/images/2016/07/07/02-icinga_director.png" alt="02 icinga director.png">
@@ -417,6 +442,9 @@ month x 12 = 29030400 = year</pre>
 </div>
 <div class="sect3">
 <h4 id="_datenfeld_downtime_duration">Datenfeld 'downtime_duration'</h4>
+<div class="paragraph">
+<p>Das Datenfeld <code>downtime_duration</code> wird später mit einem Wert aus <code>list-downtime_duration</code> gefüllt.</p>
+</div>
 <div class="imageblock">
 <div class="content">
 <img src="/time/images/2016/07/07/03-icinga_director.png" alt="03 icinga director.png">
@@ -594,7 +622,7 @@ apply Dependency "downtime-host" to Host {
           <footer class="post-footer">
             <div itemprop="author" itemscope itemtype="http://schema.org/Person" class="post-author">
                 <a href="http://wols.github.io/time/" class="post-author-avatar">
-                  <img itemprop="image" src="https://avatars.githubusercontent.com/u/764167?v&#x3D;3" alt="wols">
+                  <img itemprop="image" src="https://avatars0.githubusercontent.com/u/764167?v&#x3D;3" alt="wols">
                 </a>
               <div class="post-author-info">
                 <h4 class="post-footer-heading">Written By</h4>
@@ -626,7 +654,7 @@ apply Dependency "downtime-host" to Host {
     </article>
 
     <footer role="contentinfo" class="footer">
-      <p><small>Copyright &copy; <span itemprop="copyrightHolder">time@wols.org</span>. 2016. All Rights Reserved.</small></p>
+      <p><small>Copyright &copy; <span itemprop="copyrightHolder">time@wols.org</span>. 2017. All Rights Reserved.</small></p>
       <p><small><a href="http://ghostium.oswaldoacauan.com/" target="_blank">Ghostium Theme</a> by <a href="http://twitter.com/oswaldoacauan" target="_blank">@oswaldoacauan</a></small></p>
       <p><small>Adapted by <a href="https://twitter.com/mgreau">Maxime Gréau</a></small></p>
       <p><small>Published with <a href="http://hubpress.io">HubPress</a></small></p>
@@ -652,8 +680,10 @@ apply Dependency "downtime-host" to Host {
 
         hljs.initHighlightingOnLoad();
       </script>
+       
+    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
 
-    <script src="//wols.github.io/time/themes/ghostium/assets/js/foot-scripts.min.js?v=1469287926752"></script>
+    <script src="//wols.github.io/time/themes/ghostium/assets/js/foot-scripts.min.js?v=1488750205327"></script>
 
 
   </body>
