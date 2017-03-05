@@ -105,6 +105,8 @@ sudo -H -u icinga /usr/lib/nagios/plugins/event_downtime raspi DOWN HARD 1 60480
 
 ==== Datenliste 'list-downtime_duration'
 
+Zuerst lege ich eine Datenliste mit den Zeitperioden an, in denen ich Hosts mindestens einmal aktiv `UP` sehen möchte.
+
 image::/time/images/2016/07/07/01-icinga_director.png[title="Icinga Director - Add list | Add data list entry"]
 
 ===== Datenlisteneinträge
@@ -117,9 +119,19 @@ image::/time/images/2016/07/07/01-icinga_director.png[title="Icinga Director - A
 month x 12 = 29030400 = year
 ----
 
+Diese Auswahl ermöglicht mir die verschiedensten Host-Typen zuzuordnen:
+
+* `hour` - Hosts, die nicht länger als eine Stunde offline sein sollen
+* `day` - Hosts, die tägliche Aktualisierungen erhalten müssen
+* `week` - Hosts, im Home-Office, die mindestens einmal wöchentlich am Unternehmensnetz sein müssen
+* `month` - Hosts, deren Backup nicht zu sehr veralten darf
+* `year` - Hosts, die nie vergessen werden sollen :-)
+
 image::/time/images/2016/07/07/02-icinga_director.png[title="Icinga Director - Data lists | List entries"]
 
 ==== Datenfeld 'downtime_duration'
+
+Das Datenfeld `downtime_duration` wird später mit einem Wert aus `list-downtime_duration` gefüllt.
 
 image::/time/images/2016/07/07/03-icinga_director.png[title="Icinga Director - Add field"]
 
